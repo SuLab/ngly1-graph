@@ -1,3 +1,5 @@
 local.py
 __pycache__
 *.csv.gz
+venv
+.idea

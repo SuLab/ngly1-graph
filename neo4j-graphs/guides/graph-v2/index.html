@@ -1,0 +1,90 @@
+<style type="text/css" media="screen">
+/*
+.nodes-image {
+	margin:-100;
+}
+*/	
+@import url("//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css");
+
+.imageblock .content img, .image img {max-width: 900px;max-height: 300px;}
+.deck h3, .deck h4 {display: block !important;margin-bottom:8px;margin-top:5px;}
+.listingblock {margin:8px;}
+.pull-bottom {position:relative;bottom:1em;}
+.admonitionblock td.icon [class^="fa icon-"]{font-size:2.5em;text-shadow:1px 1px 2px rgba(0,0,0,.5);cursor:default}
+.admonitionblock td.icon .icon-note:before{content:"\f05a";color:#19407c}
+.admonitionblock td.icon .icon-tip:before{content:"\f0eb";text-shadow:1px 1px 2px rgba(155,155,0,.8);color:#111}
+.admonitionblock td.icon .icon-warning:before{content:"\f071";color:#bf6900}
+.admonitionblock td.icon .icon-caution:before{content:"\f06d";color:#bf3400}
+.admonitionblock td.icon .icon-important:before{content:"\f06a";color:#bf0000}
+.admonitionblock.note.speaker { display:none; }
+</style>
+<style type="text/css" media="screen">
+/* #editor.maximize-editor .CodeMirror-code { font-size:24px; line-height:26px; } */
+</style>
+<article class="guide" ng-controller="AdLibDataController">
+  <carousel class="deck container-fluid">
+    <!--slide class="row-fluid">
+      <div class="col-sm-3">
+        <h3>Introduction</h3>
+        <p class="lead">Information</p>
+			<!dl>
+				
+				
+				<dt>author"</dt><dd>Núria Queralt Rosinach</dd>
+				
+				
+			</dl>
+		</div>
+      <div class="col-sm-9">
+        <figure>
+          <img style="width:300px" src=""/>
+        </figure>
+      </div>
+    </slide-->
+    
+
+
+<slide class="row-fluid">
+  <div class="col-sm-12">
+    <h3>Introduction</h3>
+    <br/>
+    <div>
+      
+
+
+   <h4>NGLY1 Knowledge Graph v2.0</h4>
+   <div class="paragraph">
+<p>The NGLY1 Knowledge Graph is a network of biology, medicine, and chemistry. It contains the current knowledge about the NGLY1 deficiency-CDDG curated from the scientific literature and from the biomedical knowledge integrated in <a href="https://monarchinitiative.org/">the Monarch Initiative</a>. The current version 2.0 incorporates new animal model data and it contains 5000 nodes of 8 types and 41757 relationships of 24 types.</p>
+</div>
+<div class="paragraph">
+<p>We created the NGLY1 Knowledge Graph to support translational research on the NGLY1 deficiency&#8201;&#8212;&#8201;where we manually extracted and structured information around the pathophysiology and the pharmacology of the NGLY1 deficiency.</p>
+</div>
+
+
+
+   <h4>Exploring with Neo4j</h4>
+   <div class="paragraph">
+<p><a href="https://neo4j.com/">Neo4j</a> is a graph database management system developed by Neo Technology, Inc. A <a href="https://en.wikipedia.org/wiki/Graph_database">graph database</a> is a database that uses graph structures for semantic queries with nodes, edges and properties to represent and store data.</p>
+</div>
+<div class="paragraph">
+<p>You are currently interacting with the NGLY1 knowledge graph through the Neo4j browser, which provides a web interface to the database where you can run queries and explore the connected knowledge. To explore the whole NGLY1 knowledge graph, click on the following block to copy-paste the query into the shell and run it:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre mode="cypher"  class="highlight pre-scrollable programlisting cm-s-neo code runnable standalone-example ng-binding" data-lang="cypher" lang="cypher"><!--code class="cypher language-cypher"-->MATCH (n) RETURN *<!--/code--></pre>
+</div>
+</div>
+
+   <h4>Style the graph</h4>
+      <div class="paragraph">
+      <p>Execute this command to load the NGLY1 graph style. This command only needs to be run once per web browser.</p>
+      </div>
+      <div class="listingblock">
+      <div class="content">
+      <pre mode="cypher"  class="highlight pre-scrollable programlisting cm-s-neo code runnable standalone-example ng-binding" data-lang="cypher" lang="cypher"><!--code class="cypher language-cypher"-->:style http://52.87.232.110:8002/guides/style.grass<!--/code--></pre>
+      </div>
+      </div>
+
+	</div>
+  </div>
+</slide>

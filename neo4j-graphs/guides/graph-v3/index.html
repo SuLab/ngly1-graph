@@ -1,0 +1,1070 @@
+<style type="text/css" media="screen">
+/*
+.nodes-image {
+	margin:-100;
+}
+*/	
+@import url("//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css");
+
+.imageblock .content img, .image img {max-width: 900px;max-height: 300px;}
+.deck h3, .deck h4 {display: block !important;margin-bottom:8px;margin-top:5px;}
+.listingblock {margin:8px;}
+.pull-bottom {position:relative;bottom:1em;}
+.admonitionblock td.icon [class^="fa icon-"]{font-size:2.5em;text-shadow:1px 1px 2px rgba(0,0,0,.5);cursor:default}
+.admonitionblock td.icon .icon-note:before{content:"\f05a";color:#19407c}
+.admonitionblock td.icon .icon-tip:before{content:"\f0eb";text-shadow:1px 1px 2px rgba(155,155,0,.8);color:#111}
+.admonitionblock td.icon .icon-warning:before{content:"\f071";color:#bf6900}
+.admonitionblock td.icon .icon-caution:before{content:"\f06d";color:#bf3400}
+.admonitionblock td.icon .icon-important:before{content:"\f06a";color:#bf0000}
+.admonitionblock.note.speaker { display:none; }
+</style>
+<style type="text/css" media="screen">
+/* #editor.maximize-editor .CodeMirror-code { font-size:24px; line-height:26px; } */
+</style>
+<article class="guide" ng-controller="AdLibDataController">
+  <carousel class="deck container-fluid">
+    <!--slide class="row-fluid">
+      <div class="col-sm-3">
+        <h3>INTRODUCTION</h3>
+        <p class="lead">Information</p>
+			<!dl>
+				
+				
+				<dt>author"</dt><dd>Núria Queralt Rosinach</dd>
+				
+				
+			</dl>
+		</div>
+      <div class="col-sm-9">
+        <figure>
+          <img style="width:300px" src=""/>
+        </figure>
+      </div>
+    </slide-->
+    
+
+
+<slide class="row-fluid">
+  <div class="col-sm-12">
+    <h3>INTRODUCTION</h3>
+    <br/>
+    <div>
+      
+
+
+   <h4>NGLY1 DEFICIENCY KNOWLEDGE GRAPH</h4>
+   <div class="paragraph">
+<p><strong>Detail the knowledge content in the structured reviewed</strong></p>
+</div>
+<div class="paragraph">
+<p>The NGLY1 Deficiency Knowledge Graph is a network of biology, medicine, and chemistry. It contains the current knowledge about the NGLY1 deficiency-CDDG disease curated from the scientific literature and from the biomedical knowledge. The current version 3.2 contains 9,365 nodes of 8 types and 237,027 relationships of 32 types.</p>
+</div>
+<div class="paragraph">
+<p>We created the NGLY1 Deficiency Knowledge Graph to support translational research on the NGLY1 deficiency. We reviewed and structured information around the clinical profile, the pathophysiology and the pharmacology of the NGLY1 deficiency to help researchers to discover evidence-based explanations for their hypotheses. The third release of the graph organizes curated information from human and animal models 1) manually extracted from the literature; 2) retrieved from <a href="https://monarchinitiative.org/">the Monarch Initiative</a>; 3) transcription factors and their targeted genes from several sources in tftargets and MSigDB; 4) manually contributed by the community from <a href="http://100.25.145.12:8181/wiki/Main_Page">the NGLY1 Deficiency wikibase platform</a>; and integrates it with an experimental expression data from mouse.</p>
+</div>
+
+
+
+   <h4>WHAT KIND OF QUESTIONS WE CAN DO</h4>
+   <div class="paragraph">
+<p><strong>Highlight what we can learn from the knowledge reviewed</strong></p>
+</div>
+<div class="paragraph">
+<p>The user can query the knowledge graph asking for paths between entities to discover new hypotheses or extracting data that can shed light or give new ideas.<br></p>
+</div>
+
+
+
+   <h4>STYLE THE GRAPH</h4>
+   <div class="paragraph">
+<p>We first style the graph, before playing with it. To load the NGLY1 Deficiency graph style into the Neo4j Browser, run the following command by clicking the box, which will populate the shell, and hitting <code><code>enter</code></code> (or <code><code>return</code></code> in some keyboards). This command only needs to be run once per web browser.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre mode="cypher"  class="highlight pre-scrollable programlisting cm-s-neo code runnable standalone-example ng-binding" data-lang="cypher" lang="cypher"><!--code class="cypher language-cypher"-->:style http://100.25.145.12:8003/guides/style.grass<!--/code--></pre>
+</div>
+</div>
+<div class="admonitionblock tip">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-tip" title="Tip"></i>
+</td>
+<td class="content">
+The user can set up the style of the graph by itself locally in its browser. If you click on any label or relationship above the graph visualization, you can then choose its styling in the area below the graph. Colors, sizes, and captions are selectable from there. Click <a href="http://guides.neo4j.com/browser.html">Styling Neo4j Browser Visualization</a> for more details.
+</td>
+</tr>
+</table>
+</div>
+
+
+
+   <h4>STRUCTURE OF THE GUIDE</h4>
+   <div class="paragraph">
+<p>This guide is structured with query pages in the next section, where the guide shows an explicit question and develops a type of query we can formulate to inspect hypotheses from the knowledge in the review. In the last section, the guide develops how to query the graph with some hints and examples to aid the new user. To see how to retrieve connections through regulation between NGLY1-AQP1 go to:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><em>Slide 2</em>: <strong>NGLY1 - AQP1</strong></p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>To learn how to query the version 3.2 of the NGLY1 Defiency knowledge graph, go to:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><em>Slide 3</em>: <strong>HOW TO QUERY</strong></p>
+</li>
+</ul>
+</div>
+<div class="admonitionblock important">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-important" title="Important"></i>
+</td>
+<td class="content">
+Click the top right <strong>black&amp;white</strong> arrow to go to the next page
+</td>
+</tr>
+</table>
+</div>
+	</div>
+  </div>
+</slide>
+
+
+
+<slide class="row-fluid">
+  <div class="col-sm-12">
+    <h3>NGLY1 - AQP1</h3>
+    <br/>
+    <div>
+      <div class="paragraph">
+<p>Researchers have observed an association between NGLY1 human gene and AQP1 human gene at expression level. Their hypothesis is that both genes are linked through transcriptional regulation and they want to search the knowledge and the expression data integrated in the review to find potential mechanisms. In particular, they want to query the review to extract regulatory paths through genetic interactions that link NGLY1 and AQP1.<br></p>
+</div>
+<hr>
+
+
+
+   <h4>QUERY</h4>
+   
+
+
+   <h4>Define the query template</h4>
+   <div class="paragraph">
+<p>The first think to do is to formulate the query template to answer this question:</p>
+</div>
+<div class="imageblock" style="text-align: center;">
+<div class="content">
+<img src="https://www.dropbox.com/s/qypkrn1l50p83n6/query1_topology_v3.2.png?dl=1" alt="query1 topology v3.2" width="5000" height="100">
+</div>
+</div>
+<div class="paragraph">
+<p>In this query, we specify relations between genes to be of two types: 'interacts with' that will be explicitly either of regulatory origin once filtered by source of provenance to the databases <strong>tftargets</strong> and <strong>MSigDB</strong> or of gene expression origin once filtered by reference to the <strong>PubMed Identifier</strong>, where the experimental fly transcriptome data set was published, or a gene-gene interaction if none of these restrictions applied; and 'in 1 to 1 orthology relationship with' that relates to direct orthology between genes.</p>
+</div>
+
+
+
+   <h4>Formulate the query in Cypher</h4>
+   <div class="paragraph">
+<p>Once we have a clear query template we can create the query in Cypher to search for mechanistic links based on gene interactions and regulation edges. The following query traverses the graph to find these kind of links in the review:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>MATCH path=(source:GENE)-[i1:`RO:0002434`]-&gt;(rna:GENE)-[i2:`RO:HOM0000020`]-(ortholog_rna:GENE)-[i3:`RO:0002434`]-(tf:GENE)-[i4:`RO:0002434`]-&gt;(target:GENE)
+
+WHERE source.id = 'FlyBase:FBgn0033050' AND target.id = 'HGNC:633' AND ALL(x IN nodes(path) WHERE single(y IN nodes(path) WHERE y = x))
+
+WITH path,
+
+[n IN nodes(path) WHERE n.preflabel IN ['cytoplasm','cytosol','nucleus','metabolism','membrane','protein binding','visible','viable','phenotype']] AS nodes_marked,
+
+[r IN relationships(path) WHERE toLower(r.reference_supporting_text) =~ '.*tftargets.*|.*msigdb.*'] AS interactions
+
+WHERE size(nodes_marked) = 0 AND size(interactions) &lt;&gt; 0
+
+AND toLower(i1.reference_uri) CONTAINS 'pubmed/29346549'
+
+AND toLower(i4.reference_supporting_text) =~ '.*tftargets.*|.*msigdb.*'
+
+RETURN path</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Let&#8217;s explain this query statement by statement. First, we look for mechanisms that match the query template above, where we define gene interactions with the node type <em>GENE</em> and the edge types  <em>RO:0002434</em> (interacts with) and <em>RO:HOM0000020</em> (in 1 to 1 orthology relationship with):</p>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>MATCH path=(source:GENE)-[i1:`RO:0002434`]-&gt;(rna:GENE)-[i2:`RO:HOM0000020`]-(ortholog_rna:GENE)-[i3:`RO:0002434`]-(tf:GENE)-[i4:`RO:0002434`]-&gt;(target:GENE)</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>We define the source and target nodes with the identifier (id). The source is Pngl (FlyBase:FBgn0033050), which is the fly ortholog of the human gene NGLY1, (HGNC:17646) and the target is the human gene AQP1 (HGNC:633)</p>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>WHERE source.id = 'FlyBase:FBgn0033050' AND target.id = 'HGNC:633'</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>and we impose that every every node instance is traversed only once in the path.</p>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>AND ALL(x IN nodes(path) WHERE single(y IN nodes(path) WHERE y = x))</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>We extract some features from each path to then filter them</p>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>WITH path,</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>We mark nodes with too general meaning</p>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>[ n IN nodes(path) WHERE n.preflabel IN ['cytoplasm','cytosol','nucleus','metabolism','membrane','protein binding','visible','viable','phenotype'] ] AS nodes_marked,</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>We mark regulatory edges through the "reference_supporting_text" edge provenance attribute</p>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>[ r IN relationships(path) WHERE toLower(r.reference_supporting_text) =~ '.*tftargets.*|.*msigdb.*' ] AS interactions</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>We filter paths that only content specific node instances and at least have one regulatory edge</p>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>WHERE size(nodes_marked) = 0 AND size(interactions) &lt;&gt; 0</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>We filter paths that the first edge, named in the path pattern as 'i1', is a transcriptomic interaction from the experimental dataset published in the reference id PMID:29346549. We filter it by publication provenance using the <code>reference_uri</code> edge attribute</p>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>AND toLower(i1.reference_uri) CONTAINS 'pubmed/29346549'</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>We filter paths that the fourth edge, named as 'i4', is a TF -&#8594; GENE regulatory interaction. We define a specific directionality of the interaction to keep the TF function towards AQP1. We filter it by source provenance using the <code>reference_supporting_text</code> edge attribute</p>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>AND toLower(i4.reference_supporting_text) =~ '.*tftargets.*|.*msigdb.*'</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>We retrieve paths</p>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>RETURN path</pre>
+</div>
+</div>
+<div class="paragraph">
+<p><br></p>
+</div>
+<hr>
+
+
+
+   <h4>RESULTS</h4>
+   <div class="paragraph">
+<p>Results can be vizualized in a summary table of a list of properties calculated from all paths or in a graph exposing all the paths. In this case we can explore all paths directly in graph format that looks like:</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="https://www.dropbox.com/s/bbdg1orj7ztrvup/query1_paths_v3.2.png?dl=1" alt="query1 paths v3.2" width="10500" height="3000">
+</div>
+</div>
+<div class="paragraph">
+<p>If we want to retrieve a summary table with all gene interactors that are expressed gene interactors of Pngl and AQP1 Transcription Factors (TFs) ordered by the total number of paths they appear, the query should be:</p>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>MATCH path=(source:GENE)-[i1:`RO:0002434`]-&gt;(rna:GENE)-[i2:`RO:HOM0000020`]-(ortholog_rna:GENE)-[i3:`RO:0002434`]-(tf:GENE)-[i4:`RO:0002434`]-&gt;(target:GENE)</pre>
+</div>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>WHERE source.id = 'FlyBase:FBgn0033050' AND target.id = 'HGNC:633' AND ALL(x IN nodes(path) WHERE single(y IN nodes(path) WHERE y = x))</pre>
+</div>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>WITH path,rna,tf,</pre>
+</div>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>[n IN nodes(path) WHERE n.preflabel IN ['cytoplasm','cytosol','nucleus','metabolism','membrane','protein binding','visible','viable','phenotype']] AS nodes_marked,</pre>
+</div>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>[r IN relationships(path) WHERE toLower(r.reference_supporting_text) =~ '.*tftargets.*|.*msigdb.*'] AS interactions</pre>
+</div>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>WHERE size(nodes_marked) = 0 AND size(interactions) &lt;&gt; 0</pre>
+</div>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>AND toLower(i1.reference_uri) CONTAINS 'pubmed/29346549'</pre>
+</div>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>AND toLower(i4.reference_supporting_text) =~ '.*tftargets.*|.*msigdb.*'</pre>
+</div>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>RETURN DISTINCT rna.name AS Expressed_gene_name, tf.name AS TF_name, count(distinct path) as Total_paths</pre>
+</div>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>ORDER BY Total_paths DESC</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Which results in the following table:</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="https://www.dropbox.com/s/v7i3ld0x3cup7nj/query1_table_v3.2.png?dl=1" alt="query1 table v3.2" width="9000" height="1000">
+</div>
+</div>
+<div class="admonitionblock tip">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-tip" title="Tip"></i>
+</td>
+<td class="content">
+If the user wants to list ortholog rna genes, replace <code>rna</code> label by <code>ortholog_rna</code> in the query to refer to the third node position in the query template.
+</td>
+</tr>
+</table>
+</div>
+<hr>
+
+
+
+   <h4>TRY IT!</h4>
+   <div class="paragraph">
+<p>Execute the query yourself and explore results.</p>
+</div>
+
+
+
+   <h4>Query 1: paths that relate NGLY1 and AQP1 through gene interactions</h4>
+   <div class="paragraph">
+<p><em>Query network</em></p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre mode="cypher"  class="highlight pre-scrollable programlisting cm-s-neo code runnable standalone-example ng-binding" data-lang="cypher" lang="cypher"><!--code class="cypher language-cypher"-->MATCH path=(source:GENE)-[i1:`RO:0002434`]-&gt;(rna:GENE)-[i2:`RO:HOM0000020`]-(ortholog_rna:GENE)-[i3:`RO:0002434`]-(tf:GENE)-[i4:`RO:0002434`]-&gt;(target:GENE)
+
+WHERE source.id = 'FlyBase:FBgn0033050' AND target.id = 'HGNC:633' AND ALL(x IN nodes(path) WHERE single(y IN nodes(path) WHERE y = x))
+
+WITH path,
+
+[n IN nodes(path) WHERE n.preflabel IN ['cytoplasm','cytosol','nucleus','metabolism','membrane','protein binding','visible','viable','phenotype']] AS nodes_marked,
+
+[r IN relationships(path) WHERE toLower(r.reference_supporting_text) =~ '.*tftargets.*|.*msigdb.*'] AS interactions
+
+WHERE size(nodes_marked) = 0 AND size(interactions) &lt;&gt; 0
+
+AND toLower(i1.reference_uri) CONTAINS 'pubmed/29346549'
+
+AND toLower(i4.reference_supporting_text) =~ '.*tftargets.*|.*msigdb.*'
+
+RETURN path<!--/code--></pre>
+</div>
+</div>
+
+
+
+   <h4>Query 2: summary table of gene interactors in the resulting paths</h4>
+   <div class="paragraph">
+<p><em>Query network</em></p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre mode="cypher"  class="highlight pre-scrollable programlisting cm-s-neo code runnable standalone-example ng-binding" data-lang="cypher" lang="cypher"><!--code class="cypher language-cypher"-->MATCH path=(source:GENE)-[i1:`RO:0002434`]-&gt;(rna:GENE)-[i2:`RO:HOM0000020`]-(ortholog_rna:GENE)-[i3:`RO:0002434`]-(tf:GENE)-[i4:`RO:0002434`]-&gt;(target:GENE)
+
+WHERE source.id = 'FlyBase:FBgn0033050' AND target.id = 'HGNC:633' AND ALL(x IN nodes(path) WHERE single(y IN nodes(path) WHERE y = x))
+
+WITH path,rna,tf,
+
+[n IN nodes(path) WHERE n.preflabel IN ['cytoplasm','cytosol','nucleus','metabolism','membrane','protein binding','visible','viable','phenotype']] AS nodes_marked,
+
+[r IN relationships(path) WHERE toLower(r.reference_supporting_text) =~ '.*tftargets.*|.*msigdb.*'] AS interactions
+
+WHERE size(nodes_marked) = 0 AND size(interactions) &lt;&gt; 0
+
+AND toLower(i1.reference_uri) CONTAINS 'pubmed/29346549'
+
+AND toLower(i4.reference_supporting_text) =~ '.*tftargets.*|.*msigdb.*'
+
+RETURN DISTINCT rna.name AS Expressed_gene_name, tf.name AS TF_name, count(distinct path) as Total_paths
+
+ORDER BY Total_paths DESC<!--/code--></pre>
+</div>
+</div>
+<div class="admonitionblock important">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-important" title="Important"></i>
+</td>
+<td class="content">
+Click the top right <strong>black&amp;white</strong> arrow to go to the next page
+</td>
+</tr>
+</table>
+</div>
+	</div>
+  </div>
+</slide>
+
+
+
+<slide class="row-fluid">
+  <div class="col-sm-12">
+    <h3>AQP1 - DISEASE MANIFESTATIONS OR ABNORMAL PHENOTYPES</h3>
+    <br/>
+    <div>
+      <div class="paragraph">
+<p>Next question that the researcher may want to explore is the connection between the AQP1 and the NGLY1 Deficiency disease phenotypes.</p>
+</div>
+<hr>
+
+
+
+   <h4>QUERY</h4>
+   
+
+
+
+   <h4>Define the query template</h4>
+   <div class="paragraph">
+<p>The first think to do is to formulate the query template to answer this question:</p>
+</div>
+<div class="imageblock" style="text-align: center;">
+<div class="content">
+<img src="https://www.dropbox.com/s/ch261h9xwpu5zm5/query2_topology_v3.2.png?dl=1" alt="query2 topology v3.2" width="2500" height="600">
+</div>
+</div>
+<div class="paragraph">
+<p>This query is in two steps.</p>
+</div>
+
+
+
+   <h4>Formulate the query in Cypher</h4>
+   <hr>
+
+
+
+   <h4>RESULTS</h4>
+   <div class="paragraph">
+<p>The resulting paths can be visualized such as</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="https://www.dropbox.com/s/xh14124tnqz0noo/query2_paths_v3.2.png?dl=1" alt="query2 paths v3.2" width="3000" height="500">
+</div>
+</div>
+<div class="paragraph">
+<p>or can be summarized as a table such as</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="https://www.dropbox.com/s/vksf6gccraaf92g/query2_table_v3.2.png?dl=1" alt="query2 table v3.2" width="3000" height="500">
+</div>
+</div>
+<hr>
+
+
+
+   <h4>TRY IT!</h4>
+   
+
+
+   <h4>Query 1</h4>
+   <div class="paragraph">
+<p><em>Query network</em></p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre mode="cypher"  class="highlight pre-scrollable programlisting cm-s-neo code runnable standalone-example ng-binding" data-lang="cypher" lang="cypher"><!--code class="cypher language-cypher"-->MATCH path=(source:GENE)-[i1:`RO:0002434`]-&gt;(rna:GENE)-[i2:`RO:HOM0000020`]-(ortholog_rna:GENE)-[i3:`RO:0002434`]-(tf:GENE)-[i4:`RO:0002434`]-&gt;(target:GENE)
+
+WHERE source.id = 'FlyBase:FBgn0033050' AND target.id = 'HGNC:633' AND ALL(x IN nodes(path) WHERE single(y IN nodes(path) WHERE y = x))
+
+WITH path,ortholog_rna,tf,
+
+[n IN nodes(path) WHERE n.preflabel IN ['cytoplasm','cytosol','nucleus','metabolism','membrane','protein binding','visible','viable','phenotype']] AS nodes_marked,
+
+[r IN relationships(path) WHERE toLower(r.reference_supporting_text) =~ '.*tftargets.*|.*msigdb.*'] AS interactions
+
+WHERE size(nodes_marked) = 0 AND size(interactions) &lt;&gt; 0
+
+AND toLower(i1.reference_uri) CONTAINS 'pubmed/29346549'
+
+AND toLower(i4.reference_supporting_text) =~ '.*tftargets.*|.*msigdb.*'
+
+WITH COLLECT(DISTINCT ortholog_rna.id) + COLLECT(DISTINCT tf.id) AS genes
+
+MATCH path=(:DISO {id: 'DOID:0060728'})--&gt;(ph:DISO)--(g:GENE)
+
+WHERE g.id in genes AND ph.id CONTAINS 'HP:'
+
+RETURN path<!--/code--></pre>
+</div>
+</div>
+
+
+
+   <h4>Query 2</h4>
+   <div class="paragraph">
+<p><em>Query network</em></p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre mode="cypher"  class="highlight pre-scrollable programlisting cm-s-neo code runnable standalone-example ng-binding" data-lang="cypher" lang="cypher"><!--code class="cypher language-cypher"-->MATCH path=(source:GENE)-[i1:`RO:0002434`]-&gt;(rna:GENE)-[i2:`RO:HOM0000020`]-(ortholog_rna:GENE)-[i3:`RO:0002434`]-(tf:GENE)-[i4:`RO:0002434`]-&gt;(target:GENE)
+
+WHERE source.id = 'FlyBase:FBgn0033050' AND target.id = 'HGNC:633' AND ALL(x IN nodes(path) WHERE single(y IN nodes(path) WHERE y = x))
+
+WITH path,ortholog_rna,tf,
+
+[n IN nodes(path) WHERE n.preflabel IN ['cytoplasm','cytosol','nucleus','metabolism','membrane','protein binding','visible','viable','phenotype']] AS nodes_marked,
+
+[r IN relationships(path) WHERE toLower(r.reference_supporting_text) =~ '.*tftargets.*|.*msigdb.*'] AS interactions
+
+WHERE size(nodes_marked) = 0 AND size(interactions) &lt;&gt; 0
+
+AND toLower(i1.reference_uri) contains 'pubmed/29346549'
+
+AND toLower(i4.reference_supporting_text) =~ '.*tftargets.*|.*msigdb.*'
+
+WITH COLLECT(DISTINCT ortholog_rna.id) + COLLECT(DISTINCT tf.id) AS genes
+
+MATCH path=(:DISO {id: 'DOID:0060728'})--&gt;(ph:DISO)--(g:GENE)
+
+WHERE g.id in genes AND ph.id CONTAINS 'HP:'
+
+RETURN DISTINCT ph.id AS phenotype_id, ph.preflabel AS phenotype_label, COLLECT(DISTINCT g.name) AS gene_id_list, count(DISTINCT g.id) AS genes
+
+ORDER BY genes DESC<!--/code--></pre>
+</div>
+</div>
+<div class="admonitionblock important">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-important" title="Important"></i>
+</td>
+<td class="content">
+Click the top right <strong>black&amp;white</strong> arrow to go to the next page
+</td>
+</tr>
+</table>
+</div>
+	</div>
+  </div>
+</slide>
+
+
+
+<slide class="row-fluid">
+  <div class="col-sm-12">
+    <h3>MORE QUERIES</h3>
+    <br/>
+    <div>
+      <div class="paragraph">
+<p>There are more examples of queries that can be done from traversing the graph looking for paths connecting entities to transcriptome review-expanded summaries. The user can see more examples in notebooks stored in the <a href="https://github.com/NuriaQueralt/ngly1-graph/tree/master/neo4j-graphs/ngly1-v3.2/cypher-queries">GitHub repository project - queries</a>. These notebooks are written in Python programming language and provide an alternative interface to query the graph that allows to tracking queries and results.</p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+The user should have installed <a href="https://jupyter.org/">the Jupyter Notebook</a> software and the IPython kernel for Python3 to run and visualize the queries provided.
+</td>
+</tr>
+</table>
+</div>
+<div class="admonitionblock important">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-important" title="Important"></i>
+</td>
+<td class="content">
+Click the top right <strong>black&amp;white</strong> arrow to go to the next page
+</td>
+</tr>
+</table>
+</div>
+	</div>
+  </div>
+</slide>
+
+
+
+<slide class="row-fluid">
+  <div class="col-sm-12">
+    <h3>HOW TO QUERY</h3>
+    <br/>
+    <div>
+      
+
+
+   <h4>Exploring with Neo4j</h4>
+   <div class="paragraph">
+<p><a href="https://neo4j.com/">Neo4j</a> is a graph database management system developed by Neo Technology, Inc. A <a href="https://en.wikipedia.org/wiki/Graph_database">graph database</a> is a database that uses graph structures for semantic queries with nodes, edges and properties to represent and store data. <a href="https://en.wikipedia.org/wiki/Cypher_Query_Language">Cypher</a> is the query language for Neo4j&#8217;s graphs. To follow this guide you should be able to read and understand Cypher queries.</p>
+</div>
+<div class="paragraph">
+<p>You are currently interacting with the NGLY1 knowledge graph through the Neo4j browser, which provides a web interface to the database where you can run queries and explore the connected knowledge. To explore the whole NGLY1 knowledge graph, click on the following block to copy-paste the query into the shell and run it:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre mode="cypher"  class="highlight pre-scrollable programlisting cm-s-neo code runnable standalone-example ng-binding" data-lang="cypher" lang="cypher"><!--code class="cypher language-cypher"-->MATCH (n) RETURN * LIMIT 100<!--/code--></pre>
+</div>
+</div>
+<div class="admonitionblock important">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-important" title="Important"></i>
+</td>
+<td class="content">
+Click the top right <strong>black&amp;white</strong> arrow to go to the next page
+</td>
+</tr>
+</table>
+</div>
+	</div>
+  </div>
+</slide>
+
+
+
+<slide class="row-fluid">
+  <div class="col-sm-12">
+    <h3>THE SEMANTICS OF THE NGLY1 DEFICIENCY KNOWLEDGE GRAPH v3.2</h3>
+    <br/>
+    <div>
+      <div class="paragraph">
+<p>In this page we provide the data model of our semantic graph and some example queries to retrieve data model information from the graph.</p>
+</div>
+
+
+
+   <h4>Data model</h4>
+   <div class="paragraph">
+<p>The data model is the abstraction of how knowledge is represented in the graph and it is necessary to run more interesting queries. The following picture shows the data model or schema for NGLY1 Knowledge Graph v3.0. The semantics of the concepts in the graph rely on the semantic types that build the <a href="https://www.nlm.nih.gov/pubs/factsheets/umlssemn.html">UMLS Semantic Network</a>. To check the definition of each semantic type abbreviation see the <a href="https://metamap.nlm.nih.gov/Docs/SemGroups_2013.txt">UMLS Semantic Groups definitions</a>.</p>
+</div>
+<div class="imageblock" style="float: center;">
+<div class="content">
+<img src="https://www.dropbox.com/s/6p1zykpuexslx8e/ngly1_graph_schema.png?dl=1" alt="ngly1 graph schema" height="300">
+</div>
+</div>
+
+
+
+   <h4>Retrieve information about the data model</h4>
+   <div class="paragraph">
+<p>To retrieve the explicit semantics to use for node types and its attributes in the graph, run the following query:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre mode="cypher"  class="highlight pre-scrollable programlisting cm-s-neo code runnable standalone-example ng-binding" data-lang="cypher" lang="cypher"><!--code class="cypher language-cypher"-->MATCH (n)
+RETURN DISTINCT labels(n) AS node_type,
+count(*) AS NumberOfEntities, reduce(keys = [], keys_n in collect(keys(n)) | keys + filter(k in keys_n WHERE NOT k IN keys)) AS EntityAttributes
+ORDER BY NumberOfEntities DESC<!--/code--></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>To retrieve the explicit semantics to use for edge types and their attributes, run the following query:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre mode="cypher"  class="highlight pre-scrollable programlisting cm-s-neo code runnable standalone-example ng-binding" data-lang="cypher" lang="cypher"><!--code class="cypher language-cypher"-->MATCH ()-[r]-()
+RETURN DISTINCT type(r) AS relationship_type, r.property_label AS relationship_label,
+count(*) AS NumberOfRelationships, reduce(keys = [], keys_r in collect(keys(r)) | keys + filter(k in keys_r WHERE NOT k IN keys)) AS EntityAttributes
+ORDER BY NumberOfRelationships DESC<!--/code--></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>To retrieve what is related and how, run the following query:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre mode="cypher"  class="highlight pre-scrollable programlisting cm-s-neo code runnable standalone-example ng-binding" data-lang="cypher" lang="cypher"><!--code class="cypher language-cypher"-->MATCH (n)
+MATCH (n)-[r]-&gt;(m)
+WITH n, type(r) AS via, m
+RETURN labels(n) AS from, via, labels(m) AS to, count(*) AS freq
+ORDER BY freq DESC<!--/code--></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Click the top right black&amp;white arrow to go to the next page.
+IMPORTANT:  Click the top right <strong>black&amp;white</strong> arrow to go to the next page</p>
+</div>
+	</div>
+  </div>
+</slide>
+
+
+
+<slide class="row-fluid">
+  <div class="col-sm-12">
+    <h3>HINTS</h3>
+    <br/>
+    <div>
+      
+
+
+   <h4>How to extract hypotheses</h4>
+   <div class="paragraph">
+<p>Hypotheses are derived from exploring the evidence connecting a source-target pair of nodes. To explore this evidence we traverse the NGLY1 Knowledge Graph running queries. Hypotheses are extracted querying for semantic paths connecting source and target nodes. In the next pages, we show examples of hypotheses extracted by specific queries between two nodes. Each page is dedicated to a source-target pair and we provide several query templates to illustrate and guide the user how to query the graph to extract hypotheses. To access these pairwise hypotheses pages the user has to click the b/n arrow on the top-right part of the web. For instance, if we click this arrow we access the first page that is dedicated to the NGLY1 Deficiency-NGLY1 pair. In this page we provide examples on how to run open queries to retrieve hypotheses of path length not longer than 2 edges, i.e. without specifying a explicit pattern connecting two nodes, using or not filters.</p>
+</div>
+
+
+
+   <h4>How to query the graph</h4>
+   <div class="paragraph">
+<p>To query the graph we have to use the Cypher query language. This language allows us to query nodes, node attributes, relationships between nodes and attributes of these relationships. We can perform open queries (without a specific query template), which are usually computationally less efficient for large graphs. Alternatively, we can be more specific and search for explicit nodes and connection patterns using semantics and a query template, which makes queries more efficient in large data graphs. The data model shows how things are meaningfully represented and related to each other and it is the base to use semantics in the query. To illustrate how to query for specific semantic connections the NGLY1 Knowledge Graph, we provide some examples in Cypher using specific query templates. We do not provide a tutorial for the Cypher language. To learn how to query using Cypher the user should refer to external sources like <a href="https://neo4j.com/developer/cypher-query-language/">The Neo4j&#8217;s introduction to Cypher</a></p>
+</div>
+<div class="paragraph">
+<p>Click the top right black&amp;white arrow to go to the next page.</p>
+</div>
+	</div>
+  </div>
+</slide>
+
+
+
+<slide class="row-fluid">
+  <div class="col-sm-12">
+    <h3>QUERIES FOR GRAPH TRAVERSAL ANALYSIS. QUERY EXAMPLE: NGLY1 --- AQP1 PATHS</h3>
+    <br/>
+    <div>
+      <div class="paragraph">
+<p>To solve a question we explore and search the review by querying the graph. Let&#8217;s develop the whole process with a query example.</p>
+</div>
+
+
+
+   <h4>Open query: extraction of metapaths</h4>
+   
+
+
+
+   <h4>Query template</h4>
+   <div class="paragraph">
+<p>To structure the query in Cypher, it is important to first formulate the question in natural language and then translate it in a query template.</p>
+</div>
+
+
+
+   <h4>Query in Cypher</h4>
+   <div class="paragraph">
+<p>Once we have a clear idea of the query template, it is easier to formulated in a structured way in Cypher.</p>
+</div>
+
+
+
+   <h4>Results</h4>
+   <div class="paragraph">
+<p>The results appear below the command shell as a graph or as a table. Results are only exportable as files: graphic (PNG, SVG, ..) or structured (CVS, ..) formats.</p>
+</div>
+<div class="admonitionblock warning">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-warning" title="Warning"></i>
+</td>
+<td class="content">
+The current Neo4j Browser does not provide <code>session</code> services, thus there is not option to save any session.
+</td>
+</tr>
+</table>
+</div>
+
+
+
+   <h4>Refine query template</h4>
+   
+
+
+   <h4>Query in Cypher</h4>
+   
+
+
+
+   <h4>Results</h4>
+   
+	</div>
+  </div>
+</slide>
+
+
+
+<slide class="row-fluid">
+  <div class="col-sm-12">
+    <h3>DIY: <strong>Execute the query and explore yourself!</strong></h3>
+    <br/>
+    <div>
+      
+
+
+   <h4>Query 1: Open query</h4>
+   <div class="listingblock">
+<div class="content">
+<pre mode="cypher"  class="highlight pre-scrollable programlisting cm-s-neo code runnable standalone-example ng-binding" data-lang="cypher" lang="cypher"><!--code class="cypher language-cypher"-->MATCH path=(source:GENE)-[i1:`RO:0002434`]-&gt;(:GENE)-[*..3]-(target:GENE)
+
+WHERE source.id = 'FlyBase:FBgn0033050' AND target.id = 'HGNC:633' AND ALL(x IN nodes(path) WHERE single(y IN nodes(path) WHERE y = x))
+
+WITH path,i1,
+
+[n IN nodes(path) WHERE n.preflabel IN ['cytoplasm','cytosol','nucleus','metabolism','membrane','protein binding','visible','viable','phenotype']] AS nodes_marked
+
+WHERE size(nodes_marked) = 0 AND toLower(i1.reference_uri) contains 'pubmed/29346549'
+
+RETURN count(distinct path) as paths<!--/code--></pre>
+</div>
+</div>
+<div class="paragraph">
+<p><em>Metapaths</em></p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre mode="cypher"  class="highlight pre-scrollable programlisting cm-s-neo code runnable standalone-example ng-binding" data-lang="cypher" lang="cypher"><!--code class="cypher language-cypher"-->MATCH path=(source:GENE)-[i1:`RO:0002434`]-&gt;(:GENE)-[*..3]-(target:GENE)
+
+WHERE source.id = 'FlyBase:FBgn0033050' AND target.id = 'HGNC:633' AND ALL(x IN nodes(path) WHERE single(y IN nodes(path) WHERE y = x))
+
+WITH path,i1,
+
+[n IN nodes(path) WHERE n.preflabel IN ['cytoplasm','cytosol','nucleus','metabolism','membrane','protein binding','visible','viable','phenotype']] AS nodes_marked
+
+WHERE size(nodes_marked) = 0 AND toLower(i1.reference_uri) contains 'pubmed/29346549'
+
+RETURN DISTINCT extract (x in rels(path) | type(x)) as types, extract (n in nodes(path) | labels(n)) as labels, length(path) as mp_length, count(distinct path) as paths
+
+ORDER BY mp_length, paths DESC<!--/code--></pre>
+</div>
+</div>
+
+
+
+   <h4>Query 2: Query template</h4>
+   <div class="listingblock">
+<div class="content">
+<pre mode="cypher"  class="highlight pre-scrollable programlisting cm-s-neo code runnable standalone-example ng-binding" data-lang="cypher" lang="cypher"><!--code class="cypher language-cypher"-->MATCH path=(source:GENE)-[i1:`RO:0002434`]-&gt;(:GENE)-[:`RO:0002206`]-(:ANAT)-[:`RO:0002206`]-(:GENE)-[:`RO:0002434`]-(target:GENE)
+
+WHERE source.id = 'FlyBase:FBgn0033050' AND target.id = 'HGNC:633' AND ALL(x IN nodes(path) WHERE single(y IN nodes(path) WHERE y = x))
+
+WITH path,i1,
+
+[n IN nodes(path) WHERE n.preflabel IN ['cytoplasm','cytosol','nucleus','metabolism','membrane','protein binding','visible','viable','phenotype']] AS nodes_marked
+
+WHERE size(nodes_marked) = 0 AND toLower(i1.reference_uri) contains 'pubmed/29346549'
+
+RETURN count(distinct path) as paths<!--/code--></pre>
+</div>
+</div>
+<div class="paragraph">
+<p><em>Table</em></p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre mode="cypher"  class="highlight pre-scrollable programlisting cm-s-neo code runnable standalone-example ng-binding" data-lang="cypher" lang="cypher"><!--code class="cypher language-cypher"-->MATCH path=(source:GENE)-[i1:`RO:0002434`]-&gt;(:GENE)-[:`RO:0002206`]-(:ANAT)-[:`RO:0002206`]-(:GENE)-[:`RO:0002434`]-(target:GENE)
+
+WHERE source.id = 'FlyBase:FBgn0033050' AND target.id = 'HGNC:633' AND ALL(x IN nodes(path) WHERE single(y IN nodes(path) WHERE y = x))
+
+WITH path,i1,
+
+[n IN nodes(path) WHERE n.preflabel IN ['cytoplasm','cytosol','nucleus','metabolism','membrane','protein binding','visible','viable','phenotype']] AS nodes_marked
+
+WHERE size(nodes_marked) = 0 AND toLower(i1.reference_uri) contains 'pubmed/29346549'
+
+RETURN DISTINCT extract(x in rels(path) | x.property_label) AS types, extract(n in nodes(path) | n.name) AS labels, length(path) AS mp_length, count(distinct path) AS paths
+
+ORDER BY mp_length, paths DESC<!--/code--></pre>
+</div>
+</div>
+
+
+
+   <h4>Query 3: Refine query template</h4>
+   <div class="listingblock">
+<div class="content">
+<pre mode="cypher"  class="highlight pre-scrollable programlisting cm-s-neo code runnable standalone-example ng-binding" data-lang="cypher" lang="cypher"><!--code class="cypher language-cypher"-->MATCH path=(source:GENE)-[i1:`RO:0002434`]-&gt;(:GENE)-[:`RO:HOM0000017`]-(:GENE)-[:`RO:0002434`]-(:GENE)-[:`RO:0002434`]-(target:GENE)
+
+WHERE source.id = 'FlyBase:FBgn0033050' AND target.id = 'HGNC:633' AND ALL(x IN nodes(path) WHERE single(y IN nodes(path) WHERE y = x))
+
+WITH path,i1,
+
+[n IN nodes(path) WHERE n.preflabel IN ['cytoplasm','cytosol','nucleus','metabolism','membrane','protein binding','visible','viable','phenotype']] AS nodes_marked
+
+WHERE size(nodes_marked) = 0 AND toLower(i1.reference_uri) contains 'pubmed/29346549'
+
+RETURN count(distinct path) as paths<!--/code--></pre>
+</div>
+</div>
+	</div>
+  </div>
+</slide>
+
+
+
+<slide class="row-fluid">
+  <div class="col-sm-12">
+    <h3>QUERIES FOR TRANSCRIPTOME ANALYSIS</h3>
+    <br/>
+    <div>
+      
+
+
+   <h4>Query for common TFs</h4>
+   <div class="listingblock">
+<div class="content">
+<pre mode="cypher"  class="highlight pre-scrollable programlisting cm-s-neo code runnable standalone-example ng-binding" data-lang="cypher" lang="cypher"><!--code class="cypher language-cypher"-->MATCH path=(source:GENE)-[i1:`RO:0002434`]-&gt;(ortho:GENE)-[iortho]-(gene:GENE)&lt;-[i2:`RO:0002434`]-(tf:GENE)
+
+WHERE source.id = 'FlyBase:FBgn0033050' AND ALL(x IN nodes(path) WHERE single(y IN nodes(path) WHERE y = x))
+
+WITH path,i1,iortho,i2,tf,gene,
+
+[n IN nodes(path) WHERE n.preflabel IN ['cytoplasm','cytosol','nucleus','metabolism','membrane','protein binding','visible','viable','phenotype']] AS nodes_marked
+
+WHERE size(nodes_marked) = 0
+
+AND toLower(i1.reference_uri) =~ '.*pubmed/29346549.*'
+
+AND toLower(iortho.property_label) CONTAINS 'orthology'
+
+AND toLower(i2.reference_supporting_text) =~ '.*tftargets.*|.*msigdb.*'
+
+RETURN DISTINCT tf.id as TF_id, tf.preflabel as TF_symbol, tf.name as TF_name, tf.description as TF_description, count(distinct gene.preflabel) as Freq
+
+ORDER BY Freq DESC<!--/code--></pre>
+</div>
+</div>
+<div class="paragraph">
+<p><em>Summarize frequency and target gene sets for each TF</em></p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre mode="cypher"  class="highlight pre-scrollable programlisting cm-s-neo code runnable standalone-example ng-binding" data-lang="cypher" lang="cypher"><!--code class="cypher language-cypher"-->MATCH path=(source:GENE)-[i1:`RO:0002434`]-&gt;(o:GENE)-[iortho]-(g:GENE)&lt;-[i2:`RO:0002434`]-(tf:GENE)
+
+WHERE source.id = 'FlyBase:FBgn0033050' AND ALL(x IN nodes(path) WHERE single(y IN nodes(path) WHERE y = x))
+
+WITH path,i1,iortho,i2,g,tf,
+
+[n IN nodes(path) WHERE n.preflabel IN ['cytoplasm','cytosol','nucleus','metabolism','membrane','protein binding','visible','viable','phenotype']] AS nodes_marked
+
+WHERE size(nodes_marked) = 0
+
+AND toLower(i1.reference_uri) =~ '.*pubmed/29346549.*'
+
+AND toLower(iortho.property_label) CONTAINS 'orthology'
+
+AND toLower(i2.reference_supporting_text) =~ '.*tftargets.*|.*msigdb.*'
+
+RETURN DISTINCT tf.preflabel as TF_symbol, tf.name as TF_name, COLLECT(DISTINCT g.preflabel) as geneset, count(distinct g.preflabel) as genes
+
+ORDER BY genes DESC<!--/code--></pre>
+</div>
+</div>
+
+
+
+   <h4>Query for TF Pathways</h4>
+   <div class="imageblock" style="text-align: center;">
+<div class="content">
+<img src="https://www.dropbox.com/s/kvty5e0fuoqdadh/query3_topology_v3.2.png?dl=1" alt="query3 topology v3.2" width="5000" height="1000">
+</div>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre mode="cypher"  class="highlight pre-scrollable programlisting cm-s-neo code runnable standalone-example ng-binding" data-lang="cypher" lang="cypher"><!--code class="cypher language-cypher"-->MATCH path=(source:GENE)-[i1:`RO:0002434`]-&gt;(o:GENE)-[iortho]-(g:GENE)&lt;-[i2:`RO:0002434`]-(tf:GENE), (g:GENE)-[i]-(pw:PHYS)
+
+WHERE source.id = 'FlyBase:FBgn0033050' AND ALL(x IN nodes(path) WHERE single(y IN nodes(path) WHERE y = x))
+
+WITH path,i1,iortho,i2,g,tf,i,pw,
+
+[n IN nodes(path) WHERE n.preflabel IN ['cytoplasm','cytosol','nucleus','metabolism','membrane','protein binding','visible','viable','phenotype']] AS nodes_marked
+
+WHERE size(nodes_marked) = 0
+
+AND toLower(i1.reference_uri) =~ '.*pubmed/29346549.*'
+
+AND toLower(iortho.property_label) CONTAINS 'orthology'
+
+AND toLower(i2.reference_supporting_text) =~ '.*tftargets.*|.*msigdb.*'
+
+AND toLower(i.property_label) &lt;&gt; 'enables'
+
+RETURN DISTINCT tf.preflabel as TF_symbol, tf.name as TF_name,
+                collect(DISTINCT g.preflabel) as geneset, count(distinct g.preflabel) as genes,
+                collect(DISTINCT pw.preflabel) as pathway, count(distinct pw.preflabel) as pathways
+                                                                                                                                            ORDER BY genes DESC<!--/code--></pre>
+</div>
+</div>
+
+
+
+   <h4>Query for TF GO annotations: Cellular function</h4>
+   <div class="listingblock">
+<div class="content">
+<pre mode="cypher"  class="highlight pre-scrollable programlisting cm-s-neo code runnable standalone-example ng-binding" data-lang="cypher" lang="cypher"><!--code class="cypher language-cypher"-->MATCH path=(source:GENE)-[i1:`RO:0002434`]-&gt;(o:GENE)-[iortho]-(g:GENE)&lt;-[i2:`RO:0002434`]-(tf:GENE), (g:GENE)-[i]-(pw:PHYS)
+
+WHERE source.id = 'FlyBase:FBgn0033050' AND ALL(x IN nodes(path) WHERE single(y IN nodes(path) WHERE y = x))
+
+WITH path,i1,iortho,i2,g,tf,i,pw,
+
+[n IN nodes(path) WHERE n.preflabel IN ['cytoplasm','cytosol','nucleus','metabolism','membrane','protein binding','visible','viable','phenotype']] AS nodes_marked
+
+WHERE size(nodes_marked) = 0
+
+AND toLower(i1.reference_uri) =~ '.*pubmed/29346549.*'
+
+AND toLower(iortho.property_label) CONTAINS 'orthology'
+
+AND toLower(i2.reference_supporting_text) =~ '.*tftargets.*|.*msigdb.*'
+
+AND toLower(i.property_label) = 'enables'
+
+RETURN DISTINCT tf.preflabel as TF_symbol, tf.name as TF_name,
+                collect(DISTINCT g.preflabel) as geneset, count(distinct g.preflabel) as genes,
+                collect(DISTINCT pw.preflabel) as cellular_function, count(distinct pw.preflabel) as cellular_functions
+                                                                                                                                        ORDER BY genes DESC<!--/code--></pre>
+</div>
+</div>
+	</div>
+  </div>
+</slide>
+  </carousel>
+</article>

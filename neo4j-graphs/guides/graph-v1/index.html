@@ -1,0 +1,192 @@
+<style type="text/css" media="screen">
+/*
+.nodes-image {
+	margin:-100;
+}
+*/	
+@import url("//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css");
+
+.imageblock .content img, .image img {max-width: 900px;max-height: 300px;}
+.deck h3, .deck h4 {display: block !important;margin-bottom:8px;margin-top:5px;}
+.listingblock {margin:8px;}
+.pull-bottom {position:relative;bottom:1em;}
+.admonitionblock td.icon [class^="fa icon-"]{font-size:2.5em;text-shadow:1px 1px 2px rgba(0,0,0,.5);cursor:default}
+.admonitionblock td.icon .icon-note:before{content:"\f05a";color:#19407c}
+.admonitionblock td.icon .icon-tip:before{content:"\f0eb";text-shadow:1px 1px 2px rgba(155,155,0,.8);color:#111}
+.admonitionblock td.icon .icon-warning:before{content:"\f071";color:#bf6900}
+.admonitionblock td.icon .icon-caution:before{content:"\f06d";color:#bf3400}
+.admonitionblock td.icon .icon-important:before{content:"\f06a";color:#bf0000}
+.admonitionblock.note.speaker { display:none; }
+</style>
+<style type="text/css" media="screen">
+/* #editor.maximize-editor .CodeMirror-code { font-size:24px; line-height:26px; } */
+</style>
+<article class="guide" ng-controller="AdLibDataController">
+  <carousel class="deck container-fluid">
+    <!--slide class="row-fluid">
+      <div class="col-sm-3">
+        <h3>Introduction</h3>
+        <p class="lead">Information</p>
+			<!dl>
+				
+				
+				<dt>author"</dt><dd>Núria Queralt Rosinach</dd>
+				
+				
+			</dl>
+		</div>
+      <div class="col-sm-9">
+        <figure>
+          <img style="width:300px" src=""/>
+        </figure>
+      </div>
+    </slide-->
+    
+
+
+<slide class="row-fluid">
+  <div class="col-sm-12">
+    <h3>Introduction</h3>
+    <br/>
+    <div>
+      
+
+
+   <h4>NGLY1 Knowledge Graph v1.0</h4>
+   <div class="paragraph">
+<p>The NGLY1 Knowledge Graph is a network of biology, medicine, and chemistry. It contains the current knowledge about the NGLY1 deficiency-CDDG curated from the scientific literature and from the biomedical knowledge integrated in <a href="https://monarchinitiative.org/">the Monarch Initiative</a>. The current version 1.0 contains 443 nodes of 6 types and 4265 relationships of 18 types.</p>
+</div>
+<div class="paragraph">
+<p>We created the NGLY1 Knowledge Graph to support translational research on the NGLY1 deficiency&#8201;&#8212;&#8201;where we manually extracted and structured information around the pathophysiology and the pharmacology of the NGLY1 deficiency.</p>
+</div>
+
+
+
+   <h4>Exploring with Neo4j</h4>
+   <div class="paragraph">
+<p><a href="https://neo4j.com/">Neo4j</a> is a graph database management system developed by Neo Technology, Inc. A <a href="https://en.wikipedia.org/wiki/Graph_database">graph database</a> is a database that uses graph structures for semantic queries with nodes, edges and properties to represent and store data.</p>
+</div>
+<div class="paragraph">
+<p>You are currently interacting with the NGLY1 knowledge graph through the Neo4j browser, which provides a web interface to the database where you can run queries and explore the connected knowledge. To explore the whole NGLY1 knowledge graph, click on the following block to copy-paste the query into the shell and run it:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre mode="cypher"  class="highlight pre-scrollable programlisting cm-s-neo code runnable standalone-example ng-binding" data-lang="cypher" lang="cypher"><!--code class="cypher language-cypher"-->MATCH (n) RETURN *<!--/code--></pre>
+</div>
+</div>
+
+
+
+   <h4>Data model</h4>
+   <div class="paragraph">
+<p>The picture shows the data model or schema for NGLY1 Knowledge Graph v1.0. The semantics of the concepts in the graph rely on the semantic types that build the <a href="https://www.nlm.nih.gov/pubs/factsheets/umlssemn.html">UMLS Semantic Network</a>. To check the definition of each semantic type abbreviation see the <a href="https://metamap.nlm.nih.gov/Docs/SemGroups_2013.txt">UMLS Semantic Groups definitions</a>.</p>
+</div>
+<div class="imageblock" style="float: center;">
+<div class="content">
+<img src="https://www.dropbox.com/s/6p1zykpuexslx8e/ngly1_graph_schema.png?dl=1" alt="ngly1 graph schema" height="300">
+</div>
+</div>
+<div class="paragraph">
+<p>For an interactive version, run the following query:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre mode="cypher"  class="highlight pre-scrollable programlisting cm-s-neo code runnable standalone-example ng-binding" data-lang="cypher" lang="cypher"><!--code class="cypher language-cypher"-->CALL db.schema()<!--/code--></pre>
+</div>
+</div>
+	</div>
+  </div>
+</slide>
+
+
+
+<slide class="row-fluid">
+  <div class="col-sm-12">
+    <h3>NGLY1 Deficiency - NGLY1</h3>
+    <br/>
+    <div>
+      <div class="paragraph">
+<p>We query the knowledge graph asking for paths (hypotheses) connecting NGLY1 deficiency and NGLY1 human gene.</p>
+</div>
+
+
+
+   <h4>Inspect hypotheses</h4>
+   <div class="paragraph">
+<p><em>Query network without some promiscuous nodes and edges</em></p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre mode="cypher"  class="highlight pre-scrollable programlisting cm-s-neo code runnable standalone-example ng-binding" data-lang="cypher" lang="cypher"><!--code class="cypher language-cypher"-->MATCH (source { qid: 'Q28024539', preflabel: 'NGLY1-deficiency'}), (target { qid: 'Q18042037', preflabel: 'NGLY1'}), path=(source)-[*..2]-(target)
+WITH source, target, path,
+     // mark promiscuous nodes to filter paths that contain them out
+     [n IN nodes(path) WHERE n.preflabel IN ['cytoplasm','cytosol','protein coding gene']] AS nodes_marked,
+     // one can use another unique attribute to mark nodes
+     //[n IN nodes(path) WHERE n.qid IN ['Q79899','Q220599','Q30015942']] AS nodes_marked,
+     [r IN relationships(path) | type(r)] AS types,
+     // mark promiscuous edges to filter paths that contain them out
+     [r IN relationships(path) WHERE type(r) = 'physically_interacts_with'] AS edges_marked
+// condition to filter paths that do contain marked nodes and edges out
+WHERE size(nodes_marked) = 0 AND size(edges_marked) = 0
+RETURN source.preflabel AS Source, target.preflabel AS Target, LENGTH(path) AS pathLength, extract(n IN nodes(path)| n.preflabel) AS nodesInPath, types AS edgesInPath, path AS Path<!--/code--></pre>
+</div>
+</div>
+<div class="paragraph">
+<p><em>Query full network</em></p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre mode="cypher"  class="highlight pre-scrollable programlisting cm-s-neo code runnable standalone-example ng-binding" data-lang="cypher" lang="cypher"><!--code class="cypher language-cypher"-->MATCH (source { qid: 'Q28024539', preflabel: 'NGLY1-deficiency'}), (target { qid: 'Q18042037', preflabel: 'NGLY1'}), path=(source)-[*..2]-(target)
+WITH source, target, path,
+     [r IN relationships(path) | type(r)] AS types
+RETURN source.preflabel AS Source, target.preflabel AS Target, LENGTH(path) AS pathLength, extract(n IN nodes(path)| n.preflabel) AS nodesInPath, types AS edgesInPath, path AS Path<!--/code--></pre>
+</div>
+</div>
+	</div>
+  </div>
+</slide>
+
+
+
+<slide class="row-fluid">
+  <div class="col-sm-12">
+    <h3>Alacrima - NGLY1</h3>
+    <br/>
+    <div>
+      <div class="paragraph">
+<p>We query the knowledge graph asking for paths (hypotheses) connecting Alacrima and NGLY1 human gene.</p>
+</div>
+
+
+
+   <h4>Inspect hypotheses</h4>
+   <div class="paragraph">
+<p><em>Query network without some promiscuous nodes and edges</em></p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre mode="cypher"  class="highlight pre-scrollable programlisting cm-s-neo code runnable standalone-example ng-binding" data-lang="cypher" lang="cypher"><!--code class="cypher language-cypher"-->MATCH (source { qid: 'Q19595845', preflabel: 'Alacrima'}), (target { qid: 'Q18042037', preflabel: 'NGLY1'}), path=(source)-[*..3]-(target)
+WITH source, target, path,
+     [n IN nodes(path) WHERE n.preflabel IN ['cytoplasm','cytosol','protein coding gene']] AS nodes_marked,
+     [r IN relationships(path) | type(r)] AS types,
+     [r IN relationships(path) WHERE type(r) = 'physically_interacts_with'] AS edges_marked
+WHERE size(nodes_marked) = 0 AND size(edges_marked) = 0
+RETURN source.preflabel AS Source, target.preflabel AS Target, LENGTH(path) AS pathLength, extract(n IN nodes(path)| n.preflabel) AS nodesInPath, types AS edgesInPath, path AS Path<!--/code--></pre>
+</div>
+</div>
+<div class="paragraph">
+<p><em>Query full network</em></p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre mode="cypher"  class="highlight pre-scrollable programlisting cm-s-neo code runnable standalone-example ng-binding" data-lang="cypher" lang="cypher"><!--code class="cypher language-cypher"-->MATCH (source { qid: 'Q19595845', preflabel: 'Alacrima'}), (target { qid: 'Q18042037', preflabel: 'NGLY1'}), path=(source)-[*..3]-(target)
+WITH source, target, path,
+     [r IN relationships(path) | type(r)] AS types
+RETURN source.preflabel AS Source, target.preflabel AS Target, LENGTH(path) AS pathLength, extract(n IN nodes(path)| n.preflabel) AS nodesInPath, types AS edgesInPath, path AS Path<!--/code--></pre>
+</div>
+</div>
+	</div>
+  </div>
+</slide>
+  </carousel>
+</article>

@@ -1,0 +1,387 @@
+description,id,name,preflabel,semantic_groups,synonyms
+NA,FlyBase:FBgn0033050,PNGase-like,Pngl,GENE,CG7865|Dmel\CG7865|PNGase|png1
+NA,FlyBase:FBgn0035904,glutathione S-transferase omega 3,GstO3,GENE,GSTo
+NA,FlyBase:FBgn0051469,uncharacterized protein,CG31469,GENE,CG9599|Dmel\CG31469
+NA,FlyBase:FBgn0051092,Lipophorin receptor 2,LpR2,GENE,CG31092|CG4823|CG4834|Dmel\CG31092|LDLR|Lpr2|lpr2
+NA,FlyBase:FBgn0037225,TweedleG,TwdlG,GENE,CG14643|Dmel\CG14643
+NA,FlyBase:FBgn0039711,uncharacterized protein,CG7824,GENE,Dmel\CG7824
+NA,FlyBase:FBgn0027932,A kinase anchor protein 200,Akap200,GENE,AKAP200|Akap 200|BcDNA:LP02734|CG13388|DAKAP200|Dmel\CG13388|EP(2)2254|MESR2|akap200|anon-WO0118547.134|anon-WO0118547.213|dpo
+NA,FlyBase:FBgn0036757,ionotropic receptor 75a,Ir75a,GENE,AAEL010775
+NA,FlyBase:FBgn0262787,uncharacterized protein,CG43168,GENE,Dmel\CG43168|chr3L_6268776_6270114.0|lincRNA.451
+NA,FlyBase:FBgn0037176,uncharacterized protein,CG14456,GENE,Dmel\CG14456
+NA,FlyBase:FBgn0052694,uncharacterized protein,CG32694,GENE,BcDNA:RE02049|CG12634|CG12649|CG18512|Dmel\CG32694
+NA,FlyBase:FBgn0001233,heat shock protein 83-1,Hsp83,GENE,NA
+NA,FlyBase:FBgn0085452,uncharacterized protein,CG34423,GENE,CG11079|Dmel\CG34423|Dmel_CG11079|anon-WO0118547.139
+NA,FlyBase:FBgn0038946,retinol dehydrogenase B,rdhB,GENE,CG7077|Dmel\CG7077|RdhB
+NA,FlyBase:FBgn0031490,uncharacterized protein,CG17264,GENE,Dmel\CG17264
+NA,FlyBase:FBgn0028473,Novel nucleolar protein 1,Non1,GENE,BcDNA:LD23830|CG30341|CG8801|Dmel\CG8801|LD23830
+NA,FlyBase:FBgn0001230,Heat shock protein 68,Hsp68,GENE,68|CG5436|DmHsp68|Dmel\CG5436|HSP68|HSP68_DROME|Hsp-68|hsp68
+NA,FlyBase:FBgn0004425,Lysozyme B,LysB,GENE,CG1179|Dmel\CG1179|Lys B|lysB
+NA,FlyBase:FBgn0003231,refractory to sigma P,ref(2)P,GENE,CG10360|Dmel\CG10360|Ref(2)P|Ref(2)P/p62|Ref(2)p|Ref2P|Ref2p|SQSTM1|p62|p62/Ref(2)P|p63|ref|ref(2)Pn|ref(2)Po2|ref(2)p|ref2p
+"This gene is a proto-oncogene and encodes a nuclear phosphoprotein that plays a role in cell cycle progression, apoptosis and cellular transformation. The encoded protein forms a heterodimer with the related transcription factor MAX. This complex binds to the E box DNA consensus sequence and regulates the transcription of specific target genes. Amplification of this gene is frequently observed in numerous human cancers. Translocations involving this gene are associated with Burkitt lymphoma and multiple myeloma in human patients. There is evidence to show that translation initiates both from an upstream, in-frame non-AUG (CUG) and a downstream AUG start site, resulting in the production of two isoforms with distinct N-termini. [provided by RefSeq, Aug 2017].",FlyBase:FBgn0262656,"MYC proto-oncogene, bHLH transcription factor",Myc,GENE,MRTL|MYCC|bHLHe39|c-Myc
+NA,FlyBase:FBgn0004426,LysC,LysC,GENE,NA
+NA,FlyBase:FBgn0266594,ncRNA,CR45119,GENE,Dmel\CR45119
+NA,FlyBase:FBgn0038838,Turandot B,TotB,GENE,BcDNA:LP06769|CG5609|Dmel\CG5609|Tot B|tot
+NA,FlyBase:FBgn0261560,thor,Thor,GENE,153432_at|43-BP|4E-BP|4E-BP1|4EBP|4e-BP|4e-bp|4eBP|4ebp|BcDNA.HL08053|BcDNA:HL08053|CG8846|CT8705|Dm 4E-BP|Dmel\CG8846|Phas1|Thor/EIF4EBP|anon-WO0172774.158|d4E-BP|d4E-BP1|d4EBP|d4e-bp|d4eBP|dthor|eIF4E-BP|l(2)06270|l(2)k07736|l(2)k13517|pp20|thor
+NA,FlyBase:FBgn0035623,methuselah-like 2,mthl2,GENE,CG17795|Dmel\CG17795|Mth-2|anon-WO0170980.28|anon-WO0170980.29
+NA,FlyBase:FBgn0267706,ncRNA,CR46039,GENE,Dmel\CR46039
+NA,FlyBase:FBgn0026315,UDP-glycosyltransferase 35a,Ugt35a,GENE,AC 006491F|CG6644|DmeUgt35a|Dmel\CG6644|UDPGT1|Ugt86Df|ugt35a
+NA,FlyBase:FBgn0260000,uncharacterized protein,CG17570,GENE,38C.24|Dmel\CG17570|anon-38C.24
+NA,FlyBase:FBgn0036678,uncharacterized protein,CG11905,GENE,Dmel\CG11905
+NA,FlyBase:FBgn0265708,NA,CR44515,GENE,NA
+NA,FlyBase:FBgn0035557,uncharacterized protein,CG11353,GENE,Dmel\CG11353|anon-WO0172774.162
+NA,FlyBase:FBgn0029827,uncharacterized protein,CG6048,GENE,Dmel\CG6048|SP108
+NA,FlyBase:FBgn0037562,uncharacterized protein,CG11671,GENE,BcDNA:GM23845|Dmel\CG11671
+NA,FlyBase:FBgn0040735,uncharacterized protein,CG16836,GENE,Dmel\CG16836
+NA,FlyBase:FBgn0039778,Jonah 99Fi,Jon99Fi,GENE,CG18030|Dmel\CG18030|Jon99F|SPH181
+NA,FlyBase:FBgn0038073,uncharacterized protein,CG14395,GENE,Dmel\CG14395
+NA,FlyBase:FBgn0034289,uncharacterized protein,CG10910,GENE,Dmel\CG10910
+NA,FlyBase:FBgn0031034,uncharacterized protein,CG14205,GENE,Dmel\CG14205
+NA,FlyBase:FBgn0265897,ncRNA,CR44686,GENE,Dmel\CR44686
+NA,FlyBase:FBgn0038530,attachment protein,AttD,GENE,AGR_pAT_bx178
+NA,FlyBase:FBgn0030993,Mec2,Mec2,GENE,CG7635|DMec2|Dmel\CG7635
+NA,FlyBase:FBgn0259682,jabba,Jabba,GENE,141242_at|BP1008|CG1509|CG15092|CG34020|CG42351|Dmel\CG42351|Dmel_CG15092|Dmel_CG34020|anon-WO0118547.167
+NA,FlyBase:FBgn0030929,uncharacterized protein,CG15043,GENE,BcDNA:RE41194|Dmel\CG15043
+NA,FlyBase:FBgn0013688,mitochondrial small ribosomal RNA,mt:srRNA,GENE,NA
+NA,FlyBase:FBgn0037126,uncharacterized protein,CG14567,GENE,Dmel\CG14567
+NA,FlyBase:FBgn0036767,uncharacterized protein,CG16775,GENE,Dmel\CG16775
+NA,FlyBase:FBgn0037762,elongase F,eloF,GENE,CG16905|Dmel\CG16905
+NA,FlyBase:FBgn0035512,Cuticular protein 64Ac,Cpr64Ac,GENE,CG15008|DmelCpr64Ac|Dmel\CG15008
+NA,FlyBase:FBgn0037964,uncharacterized protein,CG14731,GENE,Dmel\CG14731|gi21483202|gi7299531
+NA,FlyBase:FBgn0035409,uncharacterized protein,CG14963,GENE,Dmel\CG14963
+NA,FlyBase:FBgn0053926,uncharacterized protein,CG33926,GENE,Dmel\CG33926
+NA,FlyBase:FBgn0034331,uncharacterized protein,CG15067,GENE,Dmel\CG15067|anon-EST:Posey85
+NA,FlyBase:FBgn0259237,uncharacterized protein,CG42335,GENE,CG13420|CG31177|CG5845|Dmel\CG42335|Dmel_CG13420|Dmel_CG31177
+NA,FlyBase:FBgn0034160,uncharacterized protein,CG5550,GENE,AAF57948|AAL48972|Dmel\CG5550|FBpp0086184
+NA,FlyBase:FBgn0262366,uncharacterized protein,CG43064,GENE,Dmel\CG43064|MIP22993
+NA,FlyBase:FBgn0264272,multiple wing hairs,mwh,GENE,BP1018|CG13913|CG34022|CG43772|Dmel\CG43772|Dmel_CG13913|Dmel_CG34022
+NA,FlyBase:FBgn0039298,takeout,to,GENE,CG11853|CT33074|Dmel\CG11853|Takeout|To
+NA,FlyBase:FBgn0040733,uncharacterized protein,CG15068,GENE,CT34939|Dmel\CG15068
+NA,FlyBase:FBgn0040104,lectin-24A,lectin-24A,GENE,AC 005149A|AC005149a|CG3410|Dmel\CG3410
+NA,FlyBase:FBgn0010038,glutathione S-transferase delta 2,GstD2,GENE,GSTt|Gstdelta
+NA,FlyBase:FBgn0036948,uncharacterized protein,CG7298,GENE,Dmel\CG7298|anon-EST:ParkEST398
+NA,FlyBase:FBgn0040736,immunoregulatory 3,IM3,GENE,LCH8-30
+NA,FlyBase:FBgn0025583,immunoregulatory 2,IM2,GENE,LCH4
+"This gene encodes the rate-limiting enzyme of the polyamine biosynthesis pathway which catalyzes ornithine to putrescine. The activity level for the enzyme varies in response to growth-promoting stimuli and exhibits a high turnover rate in comparison to other mammalian proteins. Originally localized to both chromosomes 2 and 7, the gene encoding this enzyme has been determined to be located on 2p25, with a pseudogene located on 7q31-qter. Multiple alternatively spliced transcript variants encoding distinct isoforms have been identified. [provided by RefSeq, Dec 2013].",FlyBase:FBgn0013307,ornithine decarboxylase 1,Odc1,GENE,ODC
+NA,FlyBase:FBgn0265200,NA,CR44260,GENE,NA
+NA,FlyBase:FBgn0035607,uncharacterized protein,CG4835,GENE,Dmel\CG4835
+NA,FlyBase:FBgn0035282,CNMamide,CNMa,GENE,CG13936|Dmel\CG13936
+NA,FlyBase:FBgn0031249,uncharacterized protein,CG11911,GENE,Dmel\CG11911|SP103
+NA,FlyBase:FBgn0031805,uncharacterized protein,CG9505,GENE,Dmel\CG9505
+NA,FlyBase:FBgn0044812,Turandot C,TotC,GENE,CG31508|Dmel\CG31508|TOTc|tot|totC
+NA,FlyBase:FBgn0034741,uncharacterized protein,CG4269,GENE,Dmel\CG4269|cg4269
+NA,FlyBase:FBgn0052368,uncharacterized protein,CG32368,GENE,BcDNA:RH61042|Dmel\CG32368
+NA,FlyBase:FBgn0028396,Turandot A,TotA,GENE,CG31509|DIM 31|Dmel\CG31509|Tot|Tot A|Tot-A|Turt|tot|totA
+NA,FlyBase:FBgn0004428,amino acid transporter LysE,LysE,GENE,NA
+NA,FlyBase:FBgn0034187,uncharacterized protein,CG6967,GENE,CT21565|Dmel\CG6967
+NA,FlyBase:FBgn0266099,uncharacterized protein,CG44836,GENE,CG13035|CG13036|Dmel\CG44836|Dmel_CG13035|Dmel_CG13036
+NA,FlyBase:FBgn0032507,uncharacterized protein,CG9377,GENE,Dmel\CG9377|SPH166|c-SPH166
+NA,FlyBase:FBgn0265455,uncharacterized protein,CG44355,GENE,Dmel\CG44355
+NA,FlyBase:FBgn0001225,heat shock protein 26,Hsp26,GENE,NA
+NA,FlyBase:FBgn0042207,uncharacterized protein,CG18530,GENE,CG12294|Dmel\CG18530
+NA,FlyBase:FBgn0036876,uncharacterized protein,CG9451,GENE,Dmel\CG9451
+NA,FlyBase:FBgn0036323,uncharacterized protein,CG14118,GENE,Dmel\CG14118
+NA,FlyBase:FBgn0039470,uncharacterized protein,CG6296,GENE,DmelL7|Dmel\CG6296
+NA,FlyBase:FBgn0032536,angiotensin-converting enzyme 3,Ance-3,GENE,GLEAN_02092
+NA,FlyBase:FBgn0004427,Lysozyme D,LysD,GENE,CG9118|Dmel\CG9118|lysD
+NA,FlyBase:FBgn0051380,uncharacterized protein,CG31380,GENE,CG4964|Dmel\CG31380
+NA,FlyBase:FBgn0034317,uncharacterized protein,CG14499,GENE,CR14499|Dmel\CG14499|Dmel_CR14499
+NA,FlyBase:FBgn0266227,NA,CR44922,GENE,NA
+NA,FlyBase:FBgn0039203,uncharacterized protein,CG13618,GENE,Dmel\CG13618
+NA,FlyBase:FBgn0033446,uncharacterized protein,CG1648,GENE,Dmel\CG1648
+NA,FlyBase:FBgn0033327,Peptidoglycan recognition protein SC1b,PGRP-SC1b,GENE,CG8577|CT8705|Dmel\CG8577|PGRP SC|PGRP-SC|PGRP-SC1|PGRP-SC1B|SC1B|pgrp-sc|pgrp-sc1
+NA,FlyBase:FBgn0031248,uncharacterized protein,CG11912,GENE,Dmel\CG11912|SP140|anon-WO0140519.112
+NA,FlyBase:FBgn0001224,Heat shock protein 23,Hsp23,GENE,23|CG4463|DmHSP23|DmHsp23|Dmel20.6|Dmel\CG4463|HSP23|HSP23/IAP|Hsp-23|hsp 22K|hsp 23|hsp 23K|hsp23|hsp23/22|small hsp locus 67B
+NA,FlyBase:FBgn0051041,uncharacterized protein,CG31041,GENE,Dmel\CG31041
+NA,FlyBase:FBgn0004034,putative movement protein,y,GENE,NA
+NA,FlyBase:FBgn0013278,Heat-shock-protein-70Bb,Hsp70Bb,GENE,Bb|CG31359|DMHSP7D1|Dm-hsp70|Dmel\CG31359|HSP70|Hsp 70|Hsp-70|Hsp70|Hsp70(87C)|Hsp70A7d|Hsp70B|Hsp70Bbc|Hsp70Bc|Hsp70bb|dHsp70|dhsp70|hsp-70|hsp70|hsp70 87C|hsp70B|hsp70Bb
+NA,FlyBase:FBgn0035886,Jonah 66Ci,Jon66Ci,GENE,66C|CG7118|Dmel\CG7118|Jon66C|SP171
+NA,FlyBase:FBgn0030880,uncharacterized protein,CG6788,GENE,AAF48780|Dmel\CG6788|FBpp0074269
+NA,FlyBase:FBgn0052475,methuselah-like 8,mthl8,GENE,CG11869|CG13406|CG32475|Dmel\CG32475|Mth-8|anon-WO0170980.145|anon-WO0170980.146|mthl-8
+NA,FlyBase:FBgn0036777,uncharacterized protein,CG7341,GENE,Dmel\CG7341
+NA,FlyBase:FBgn0050008,uncharacterized protein,CG30008,GENE,CG12138|Dmel\CG30008|anon-WO0140519.246
+NA,FlyBase:FBgn0262854,uncharacterized protein,CG43218,GENE,Dmel\CG43218|MB8.chr3L.pasa.58
+NA,FlyBase:FBgn0037323,uncharacterized protein,CG2663,GENE,Dmel\CG2663
+NA,FlyBase:FBgn0264831,ncRNA,CR44039,GENE,Dmel\CR44039
+NA,FlyBase:FBgn0261054,Seminal fluid protein 24Bc,Sfp24Bc,GENE,CG42602|Dmel\CG42602|SFP24BC
+NA,FlyBase:FBgn0259951,Seminal fluid protein 24Ba,Sfp24Ba,GENE,CG42461|Dmel\CG42461|SFP24BA
+NA,FlyBase:FBgn0038009,uncharacterized protein,CG17738,GENE,Dmel\CG17738
+NA,FlyBase:FBgn0263412,ncRNA,CR43458,GENE,Dmel\CR43458|lincRNA.913
+NA,FlyBase:FBgn0266949,NA,CR45400,GENE,NA
+NA,FlyBase:FBgn0051779,Accessory gland protein 24A4,Acp24A4,GENE,CG31779|Dmel\CG31779
+NA,FlyBase:FBgn0039184,uncharacterized protein,CG6432,GENE,Dmel\CG6432
+NA,FlyBase:FBgn0032265,uncharacterized protein,CG18301,GENE,Dmel\CG18301
+NA,FlyBase:FBgn0031464,dual oxidase,Duox,GENE,NA
+NA,FlyBase:FBgn0032055,uncharacterized protein,CG13091,GENE,CT32316|Dmel\CG13091
+NA,FlyBase:FBgn0040256,Ugt86Dd,Ugt86Dd,GENE,AC 006491D|CG6633|Dmel\CG6633
+NA,FlyBase:FBgn0005626,perinatal lethality,ple,GENE,Tg.ple|Tgple
+NA,FlyBase:FBgn0267678,ncRNA,CR46014,GENE,Dmel\CR46014
+NA,FlyBase:FBgn0263659,NA,CR43650,GENE,NA
+NA,FlyBase:FBgn0038398,sex-specific enzyme 2,sxe2,GENE,CG4979|Dmel\CG4979
+NA,FlyBase:FBgn0032538,uncharacterized protein,CG16885,GENE,CG18634|Dmel\CG16885|vajk-2
+NA,FlyBase:FBgn0043792,uncharacterized protein,CG30427,GENE,BEST:LD36843|CG18680|CG2858|Dmel\CG30427
+NA,FlyBase:FBgn0038007,Cyp313a3,Cyp313a3,GENE,313a3|CG10093|CYP313a3|Dmel\CG10093
+NA,FlyBase:FBgn0262896,uncharacterized protein,CG43251,GENE,Dmel\CG43251|lincRNA.639
+NA,FlyBase:FBgn0030558,uncharacterized protein,CG1461,GENE,Dmel\CG1461|cg1461
+NA,FlyBase:FBgn0029823,Serine hydroxymethyl transferase,CG3011,GENE,144561_at|CG3011|Dmel\CG3011|SHMT|Shmt2|anon-WO03040301.100
+NA,FlyBase:FBgn0016675,Galactose-specific C-type lectin,Lectin-galC1,GENE,AC007082a|CG9976|DL1|Dgal-1|Dmel\CG9976|Lecti-galC1|lectin-galC1
+NA,FlyBase:FBgn0024294,Serpin 43Aa,Spn43Aa,GENE,CG12172|Dmel\CG12172|SER1|Ser1|Spn43 Aa|Spn43A|anon-WO0118057.1
+NA,FlyBase:FBgn0038714,Cuticular protein 92A,Cpr92A,GENE,CG6240|DmelCpr92A|Dmel\CG6240
+NA,FlyBase:FBgn0031925,Cyp4d21,Cyp4d21,GENE,4d21|CG6730|CYP4d21|Dmel\CG6730|cyp4d21|sxe1
+NA,FlyBase:FBgn0036023,uncharacterized protein,CG18179,GENE,BEST:LP02275|Dmel\CG18179|SP152
+NA,FlyBase:FBgn0004577,Peroxidase,Pxd,GENE,CG3477|DmPO|Dmel\CG3477|Dpxd|PO
+NA,FlyBase:FBgn0028544,uncharacterized protein,CG16884,GENE,BG:DS00180.3|Dmel\CG16884|vajk-3
+NA,FlyBase:FBgn0032067,Lysosomal alpha-mannosidase IV,LManIV,GENE,CG9465|Dmel\CG9465
+NA,FlyBase:FBgn0034563,uncharacterized protein,CG15649,GENE,BcDNA:GH08880|Dmel\CG15649
+NA,FlyBase:FBgn0036549,uncharacterized protein,CG10516,GENE,Dmel\CG10516
+NA,FlyBase:FBgn0036553,uncharacterized protein,CG17027,GENE,152392_at|Dmel\CG17027|IMP
+NA,FlyBase:FBgn0250843,Proteasome alpha6 subunit,Prosalpha6,GENE,143314_at|Alpha-6|CG4904|Dmel\CG4904|PROS-35|PROS-Dm35|PSMA1|Pros-35|Pros-Dm35|Pros35|alpha-6|alpha6|alpha_dm|anon-SAGE:Wang-116|pros 35|pros35
+NA,FlyBase:FBgn0036597,uncharacterized protein,CG4962,GENE,CT15908|Dmel\CG4962
+NA,FlyBase:FBgn0036969,Serpin 77Bb,Spn77Bb,GENE,CG6266|CG6663|Dmel\CG6663|Spn77
+NA,FlyBase:FBgn0038983,uncharacterized protein,CG5326,GENE,Dmel\CG5326
+NA,FlyBase:FBgn0030592,uncharacterized protein,CG9514,GENE,Dm GMCdelta1|Dmel\CG9514
+NA,FlyBase:FBgn0259975,Seminal fluid protein 87B,Sfp87B,GENE,CG42485|Dmel\CG42485|GH21617p
+NA,FlyBase:FBgn0039827,uncharacterized protein,CG1544,GENE,Dmel\CG1544
+NA,FlyBase:FBgn0052072,Elongase 68alpha,Elo68alpha,GENE,CG32072|CG6261|Dmel\CG32072|elo68alpha
+NA,FlyBase:FBgn0032726,uncharacterized protein,CG10621,GENE,BEST:LD26123|Dmel\CG10621|anon-WO0140519.13
+NA,FlyBase:FBgn0259968,Seminal fluid protein 60F,Sfp60F,GENE,CG42478|Dmel\CG42478
+NA,FlyBase:FBgn0039755,uncharacterized protein,CG15531,GENE,Dmel\CG15531
+NA,FlyBase:FBgn0032713,uncharacterized protein,CG17323,GENE,CT35071|Dmel\CG17323
+NA,FlyBase:FBgn0034045,uncharacterized protein,CG8249,GENE,Dmel\CG8249
+NA,FlyBase:FBgn0267692,ncRNA,CR46028,GENE,Dmel\CR46028
+NA,FlyBase:FBgn0037801,uncharacterized protein,CG3999,GENE,Dmel\CG3999
+NA,FlyBase:FBgn0031542,uncharacterized protein,CG15414,GENE,Dmel\CG15414
+NA,FlyBase:FBgn0041711,yellow-e,yellow-e,GENE,CG9792|Dmel\CG9792|e|yell-e
+NA,FlyBase:FBgn0038986,stuck in traffic,CG5278,GENE,CG5278|Dmel\CG5278
+NA,FlyBase:FBgn0038326,uncharacterized protein,CG5044,GENE,CT16187|Dmel\CG5044|HIBCH
+NA,FlyBase:FBgn0038449,uncharacterized protein,CG17562,GENE,Dmel\CG17562
+NA,FlyBase:FBgn0031940,uncharacterized protein,CG7214,GENE,Dmel\CG7214
+NA,FlyBase:FBgn0043865,Stromalin-2,SA-2,GENE,CG1|CG13916|Dmel\CG13916|SNM|anon-WO0109301.35|pf-1|snm
+NA,FlyBase:FBgn0051148,Glucocerebrosidase 1a,Gba1a,GENE,CG10299|CG31148|CT28913|Dmel\CG31148|anon-WO0140519.234|dGBA1a
+NA,FlyBase:FBgn0039241,uncharacterized protein,CG11089,GENE,153761_at|BEST:GH11240|CT30991|Dmel\CG11089|atic
+NA,FlyBase:FBgn0003357,Jonah 99Ciii,Jon99Ciii,GENE,99Calpha|CG15519|CG31362|Dmel\CG31362|Jon99B|Jon99C|Jon99C1|Jon99C2|Jon99Calpha|Jon99Calphaii|Jon99Cbeta|Jon99Cbetaiii|JonC|SER2|SP143|Ser2|Ser5|Ser99Db
+NA,FlyBase:FBgn0029898,uncharacterized protein,CG14439,GENE,Dmel\CG14439
+NA,FlyBase:FBgn0039030,uncharacterized protein,CG6660,GENE,Dmel\CG6660
+NA,FlyBase:FBgn0030589,uncharacterized protein,CG9519,GENE,Dm GMCtheta1|Dmel\CG9519
+NA,FlyBase:FBgn0011694,Ejaculatory bulb protein II,EbpII,GENE,CG2665|Dmel\CG2665|PEB|PEB2|PEBII|PEBmeII|PebII
+NA,FlyBase:FBgn0051104,uncharacterized protein,CG31104,GENE,CG13657|Dmel\CG31104
+NA,FlyBase:FBgn0037763,uncharacterized protein,CG16904,GENE,Dmel\CG16904
+NA,FlyBase:FBgn0039495,uncharacterized protein,CG5909,GENE,Dmel\CG5909|SP8|c-SP8
+NA,FlyBase:FBgn0259164,uncharacterized protein,CG42269,GENE,CG6596|CG6600|Dmel\CG42269|Dmel_CG6596|Dmel_CG6600
+NA,FlyBase:FBgn0266951,NA,CR45402,GENE,NA
+NA,FlyBase:FBgn0259952,Seminal fluid protein 24Bb,Sfp24Bb,GENE,CG42462|Dmel\CG42462|SFP24BB
+NA,FlyBase:FBgn0036992,uncharacterized protein,CG11796,GENE,Dmel\CG11796
+NA,FlyBase:FBgn0265541,NA,CR44391,GENE,NA
+NA,FlyBase:FBgn0033308,uncharacterized protein,CG8736,GENE,BcDNA:RH08259|Dmel\CG8736
+NA,FlyBase:FBgn0039475,uncharacterized protein,CG6277,GENE,DmelL2|Dmel\CG6277
+"The protein encoded by this gene is an integral membrane protein of the endoplasmic reticulum. It is a high affinity binding protein for the antiischemic phenylalkylamine Ca2+ antagonist [3H]emopamil and the photoaffinity label [3H]azidopamil. It is similar to sigma receptors and may be a member of a superfamily of high affinity drug-binding proteins in the endoplasmic reticulum of different tissues. This protein shares structural features with bacterial and eukaryontic drug transporting proteins. It has four putative transmembrane segments and contains two conserved glutamate residues which may be involved in the transport of cationic amphiphilics. Another prominent feature of this protein is its high content of aromatic amino acid residues (>23%) in its transmembrane segments. These aromatic amino acid residues have been suggested to be involved in the drug transport by the P-glycoprotein. Mutations in this gene cause Chondrodysplasia punctata 2 (CDPX2; also known as Conradi-Hunermann syndrome). [provided by RefSeq, Jul 2008].",FlyBase:FBgn0004181,"EBP, cholestenol delta-isomerase",Ebp,GENE,CDPX2|CHO2|CPX|CPXD|MEND
+NA,FlyBase:FBgn0032076,uncharacterized protein,CG9510,GENE,BEST:GH06087|CG33085|Dmel\CG9510|gh06087
+NA,FlyBase:FBgn0032835,uncharacterized protein,CG16772,GENE,Dmel\CG16772|anon-WO0138581.5
+NA,FlyBase:FBgn0035476,uncharacterized protein,CG12766,GENE,Dmel\CG12766
+NA,FlyBase:FBgn0031373,uncharacterized protein,CG15358,GENE,Dmel\CG15358|mdcds_4396
+NA,FlyBase:FBgn0005664,Crystallin,Crys,GENE,CG16963|Cry|DmelCry|Dmel\CG16963|c|dcy
+NA,FlyBase:FBgn0036665,uncharacterized protein,CG13024,GENE,BcDNA:RH61817|Dmel\CG13024
+NA,FlyBase:FBgn0032066,Lysosomal alpha-mannosidase III,LManIII,GENE,CG9463|Dmel\CG9463
+NA,FlyBase:FBgn0027562,uncharacterized protein,CG10345,GENE,BcDNA|BcDNA:GH08773|Dmel\CG10345
+NA,FlyBase:FBgn0033520,Peroxiredoxin 2540-1,Prx2540-1,GENE,1-cys peroxiredoxin DPx- 2540-1|BEST:LD11278|CG12405|DPx-2540-1|DPx2540|Dmel\CG12405|Prx2540
+NA,FlyBase:FBgn0036780,uncharacterized protein,CG7330,GENE,BcDNA:RE22290|Dmel\CG7330
+NA,FlyBase:FBgn0035844,uncharacterized protein,CG13676,GENE,Dmel\CG13676
+NA,FlyBase:FBgn0010424,Troponin C at 73F,TpnC73F,GENE,CG7930|DmTnC3|DmTpnC73F|DmTpnCIa|Dmel\CG7930|TNC|TNC73F|TnC|TnC73F|Tnc2|TpnC Ia|TpnCIa|tpnC73F
+NA,FlyBase:FBgn0035546,uncharacterized protein,CG11345,GENE,Dmel\CG11345
+NA,FlyBase:FBgn0266702,NA,CR45192,GENE,NA
+NA,FlyBase:FBgn0036321,uncharacterized protein,CG14120,GENE,Dmel\CG14120
+NA,FlyBase:FBgn0036759,uncharacterized protein,CG5577,GENE,20151379|Dmel\CG5577
+NA,FlyBase:FBgn0039311,uncharacterized protein,CG10513,GENE,CT29500|Dmel\CG10513
+NA,FlyBase:FBgn0028583,la costa,lcs,GENE,CG12794|Dmel\CG12794
+NA,FlyBase:FBgn0010423,Troponin C at 47D,TpnC47D,GENE,BcDNA:RE34610|CG9073|DmTnC2|DmTpnC47D|DmTpnCIb|Dmel\CG9073|TNC|TNC47D|TnC|TnC47D|Tnc3|TpnC Ib|TpnCIb
+NA,FlyBase:FBgn0033541,uncharacterized protein,CG12934,GENE,Dmel\CG12934
+NA,FlyBase:FBgn0034247,uncharacterized protein,CG6484,GENE,Dmel\CG6484
+NA,FlyBase:FBgn0034974,uncharacterized protein,CG16786,GENE,Dmel\CG16786
+NA,FlyBase:FBgn0054026,uncharacterized protein,CG34026,GENE,BP1064|Dmel\CG34026
+NA,FlyBase:FBgn0035355,uncharacterized protein,CG16985,GENE,BcDNA:RE30174|Dmel\CG16985
+NA,FlyBase:FBgn0262537,uncharacterized protein,CG43091,GENE,Dmel\CG43091
+NA,FlyBase:FBgn0035484,uncharacterized protein,CG11594,GENE,Dmel\CG11594
+NA,FlyBase:FBgn0040900,uncharacterized protein,CG17777,GENE,Dmel\CG17777
+NA,FlyBase:FBgn0038577,uncharacterized protein,CG12321,GENE,Dmel\CG12321
+NA,FlyBase:FBgn0036587,uncharacterized protein,CG4950,GENE,CT15890|Dmel\CG4950
+NA,FlyBase:FBgn0036717,uncharacterized protein,CG13731,GENE,Dmel\CG13731
+NA,FlyBase:FBgn0052195,uncharacterized protein,CG32195,GENE,Dmel\CG32195
+NA,FlyBase:FBgn0036881,Cuticular protein 76Bd,Cpr76Bd,GENE,CG9299|DmelCpr76Bd|Dmel\CG9299
+NA,FlyBase:FBgn0039801,Niemann-Pick type C-2h,Npc2h,GENE,BcDNA:GH26608|BcDNA:RH04252|BcDNA:RH68460|CG11315|DmML1A|Dmel\CG11315|npc2h
+NA,FlyBase:FBgn0032283,uncharacterized protein,CG7296,GENE,BcDNA:RH68528|Dmel\CG7296
+"This gene encodes an enzyme localized to the mitochondrial matrix which catalyzes the oxidative demethylation of sarcosine. This enzyme is distinct from another mitochondrial matrix enzyme, dimethylglycine dehydrogenase, which catalyzes a reaction resulting in the formation of sarcosine. Mutations in this gene are associated with sarcosinemia. Alternatively spliced transcript variants have been described. [provided by RefSeq, Oct 2008].",FlyBase:FBgn0034276,sarcosine dehydrogenase,Sardh,GENE,BPR-2|DMGDHL1|SAR|SARD|SDH
+NA,FlyBase:FBgn0267179,NA,CR45619,GENE,NA
+NA,FlyBase:FBgn0032266,uncharacterized protein,CG18302,GENE,Dmel\CG18302
+NA,FlyBase:FBgn0003356,Jonah 99Cii,Jon99Cii,GENE,99Calpha|CG31034|CG7877|Dmel\CG31034|Jon99B|Jon99C|Jon99C1|Jon99C2|Jon99Calpha|Jon99Calphai|Jon99Cbeta|Jon99Cbetaii|JonC|SER1|SP122|Ser1|Ser5|Ser99Da|Serl
+NA,FlyBase:FBgn0036972,NA,CR6434,GENE,NA
+NA,FlyBase:FBgn0032281,uncharacterized protein,CG17107,GENE,Dmel\CG17107
+NA,FlyBase:FBgn0085313,uncharacterized protein,CG34284,GENE,Dmel\CG34284
+NA,FlyBase:FBgn0040609,uncharacterized protein,CG3348,GENE,Dmel\CG3348
+NA,FlyBase:FBgn0051077,uncharacterized protein,CG31077,GENE,Dmel\CG31077
+NA,FlyBase:FBgn0036824,uncharacterized protein,CG3902,GENE,CG 3902|CG18168|CT12987|Dmel\CG3902|GH07925p
+NA,FlyBase:FBgn0000052,adenosine 2,ade2,GENE,153122_at|Ade2|CG9127|Dmel\CG9127|Paics|pym
+NA,FlyBase:FBgn0039161,uncharacterized protein,CG13606,GENE,Dmel\CG13606
+NA,FlyBase:FBgn0038629,uncharacterized protein,CG14304,GENE,Dmel\CG14304
+NA,FlyBase:FBgn0039805,Cuticular protein 100A,Cpr100A,GENE,CG12045|DmelCpr100A|Dmel\CG12045
+NA,FlyBase:FBgn0037635,uncharacterized protein,CG9837,GENE,Dmel\CG9837
+NA,FlyBase:FBgn0085345,uncharacterized protein,CG34316,GENE,Dm_3R:60797|Dmel\CG34316|JHBP
+NA,FlyBase:FBgn0038819,Cuticular protein 92F,Cpr92F,GENE,CG5494|Dmel\CG5494
+NA,FlyBase:FBgn0000053,putative phosphoribosylformylglycinamidine synthase Ade3,ade3,GENE,min11
+NA,FlyBase:FBgn0033521,uncharacterized protein,CG12896,GENE,BEST:LD11278|Dmel\CG12896|RE05501p|RH54193
+NA,FlyBase:FBgn0035087,uncharacterized protein,CG2765,GENE,Dmel\CG2765
+NA,FlyBase:FBgn0034382,uncharacterized protein,CG18609,GENE,CT42569|Dmel\CG18609
+NA,FlyBase:FBgn0032394,uncharacterized protein,CG6746,GENE,Dmel\CG6746|HADC[CG6746]
+NA,FlyBase:FBgn0038290,uncharacterized protein,CG6912,GENE,Dmel\CG6912|anon-WO0118547.571|anon-WO0140519.208
+NA,FlyBase:FBgn0267472,ncRNA,CR45822,GENE,Dmel\CR45822
+NA,FlyBase:FBgn0032084,uncharacterized protein,CG13101,GENE,Dmel\CG13101
+NA,FlyBase:FBgn0039872,salty dog,salt,GENE,CG2196|Dmel\CG2196|dSLC5A7
+NA,FlyBase:FBgn0039480,Cuticular protein 97Ea,Cpr97Ea,GENE,CG6131|Dmel\CG6131
+NA,FlyBase:FBgn0040349,uncharacterized protein,CG3699,GENE,CT12411|Dmel\CG3699|EG:BACR7A4.14
+NA,FlyBase:FBgn0266766,ncRNA,CR45231,GENE,Dmel\CR45231
+NA,FlyBase:FBgn0267106,uncharacterized protein,CG45546,GENE,Dmel\CG45546
+"The product of this gene belongs to the phosphotyrosine protein phosphatase family of proteins. It functions as an acid phosphatase and a protein tyrosine phosphatase by hydrolyzing protein tyrosine phosphate to protein tyrosine and orthophosphate. This enzyme also hydrolyzes orthophosphoric monoesters to alcohol and orthophosphate. This gene is genetically polymorphic, and three common alleles segregating at the corresponding locus give rise to six phenotypes. Each allele appears to encode at least two electrophoretically different isozymes, Bf and Bs, which are produced in allele-specific ratios. Multiple alternatively spliced transcript variants encoding distinct isoforms have been identified for this gene. [provided by RefSeq, Aug 2008].",FlyBase:FBgn0014454,acid phosphatase 1,Acp1,GENE,HAAP|LMW-PTP|LMWPTP
+NA,FlyBase:FBgn0031432,Cyp309a1,Cyp309a1,GENE,309a1|CG9964|Dmel\CG9964
+NA,FlyBase:FBgn0036590,uncharacterized protein,CG13065,GENE,BcDNA:RH56745|Dmel\CG13065
+NA,FlyBase:FBgn0038511,Curly Su,cysu,GENE,CG5873|Dmel\CG5873|Q9VEJ9
+NA,FlyBase:FBgn0034856,yellow-d2,yellow-d2,GENE,CG9891|CT27880|Dmel\CG9891|d2|yel-d2
+NA,FlyBase:FBgn0035281,Cuticular protein 62Bc,Cpr62Bc,GENE,CG1919|DmelCpr62Bc|Dmel\CG1919
+NA,FlyBase:FBgn0039768,uncharacterized protein,CG15533,GENE,Dmel\CG15533|aSMase
+NA,FlyBase:FBgn0033518,Peroxiredoxin 2540-2,Prx2540-2,GENE,CG11765|DPx-2540-2|DPx2540|Dmel\CG11765|Prx2540
+NA,FlyBase:FBgn0028693,regulatory particle non-ATPase,Rpn12,GENE,NA
+NA,FlyBase:FBgn0039685,Odorant-binding protein 99b,Obp99b,GENE,99b|BcDNA:LP06572|CG7592|DmelObp99b|Dmel\CG7592|OBP99b|Obp99d|obp99b|tsx
+NA,FlyBase:FBgn0023197,Jonah 74E,Jon74E,GENE,CG6298|CT19724|Dmel\CG6298|SP85
+NA,FlyBase:FBgn0036781,uncharacterized protein,CG13699,GENE,Dmel\CG13699
+NA,FlyBase:FBgn0050016,uncharacterized protein,CG30016,GENE,Dmel\CG30016|anon-AE003828.1
+NA,FlyBase:FBgn0036910,Cyp305a1,Cyp305a1,GENE,305a1|AAF49108.1|CG8733|CYP305A1-Dm|Cyp305A1|Dmel\CG8733
+NA,FlyBase:FBgn0265426,ncRNA,CR44338,GENE,CG44338|Dmel\CR44338
+NA,FlyBase:FBgn0032287,uncharacterized protein,CG6415,GENE,151967_at|Dmel\CG6415|anon-32Aa
+NA,FlyBase:FBgn0267473,NA,CR45823,GENE,NA
+NA,FlyBase:FBgn0032282,uncharacterized protein,CG7299,GENE,BcDNA:RE24635|CT22515|Dmel\CG7299
+NA,FlyBase:FBgn0032596,Proteasome beta4 subunit,Prosbeta4,GENE,17331|Beta-4|CG17331|Dmel\CG17331|GC17331|PSMB2|Psmb2|beta-4|beta4
+NA,FlyBase:FBgn0261575,target of brain insulin,tobi,GENE,CG11909|CT33098|Dmel\CG11909
+NA,FlyBase:FBgn0053282,uncharacterized protein,CG33282,GENE,CG15407|Dmel\CG33282
+NA,FlyBase:FBgn0051832,uncharacterized protein,CG31832,GENE,AAF44911|BG:DS00929.7|DS00929.7|Dmel\CG31832|FBpp0080285
+NA,FlyBase:FBgn0019643,Dopamine N acetyltransferase,Dat,GENE,AA-NAT1|AANAT|AANATA|AANATB|Aanat1|CG3318|DAT|Dat1|Dmel\CG3318|NAT1|aaNAT|aaNAT1|aaNat
+NA,FlyBase:FBgn0036289,uncharacterized protein,CG10657,GENE,BEST:LD32330|Dmel\CG10657
+NA,FlyBase:FBgn0086691,UK114,UK114,GENE,BG:DS07851.3|BcDNA:GM01181|CG15261|DUK 114|DUK114|Dmel\CG15261
+NA,FlyBase:FBgn0004782,Ccp84Ab,Ccp84Ab,GENE,BG:DS00004.2|CG1252|Ccp|DmelCcp84Ab|Dmel\CG1252|cc7
+NA,FlyBase:FBgn0040211,"homogentisate 1,2-dioxygenase",hgo,GENE,2-DIOXYGENASE|2-dioxygenase|AtHGO|HOMOGENTISATE 1|MJP23.6|MJP23_6|homogentisate 1
+NA,FlyBase:FBgn0263777,uncharacterized protein,CG43694,GENE,Dmel\CG43694
+NA,FlyBase:FBgn0027341,Glutamine:fructose-6-phosphate aminotransferase 1,Gfat1,GENE,CG12449|CG40197|Dmel/Gfat1|Dmel\CG12449|GFAT|Gfat|gfat|gfat1
+NA,FlyBase:FBgn0036778,Cyp312a1,Cyp312a1,GENE,312a1|CG5137|Dmel\CG5137|P450 IV
+NA,FlyBase:FBgn0039820,uncharacterized protein,CG15554,GENE,BcDNA:RE10288|Dmel\CG15554
+NA,FlyBase:FBgn0051313,uncharacterized protein,CG31313,GENE,BcDNA:RH02566|Dmel\CG31313
+NA,FlyBase:FBgn0259244,uncharacterized protein,CG42342,GENE,CG11769|CG14888|CG14889|CG14890|CG42243|Dmel\CG42342|Dmel_CG11769|Dmel_CG14888|Dmel_CG14889|Dmel_CG14890
+NA,FlyBase:FBgn0085356,uncharacterized protein,CG34327,GENE,Dmel\CG34327
+NA,FlyBase:FBgn0037714,uncharacterized protein,CG9396,GENE,Dmel\CG9396
+NA,FlyBase:FBgn0024289,Alcohol dehydrogenase 1,Sodh-1,GENE,NA
+NA,FlyBase:FBgn0262363,uncharacterized protein,CG43061,GENE,Dmel\CG43061
+NA,FlyBase:FBgn0004507,Glycogen phosphorylase,GlyP,GENE,BcDNA:LD24485|CG7254|DGPH|Dmel\CG7254|GP|Glp1|Glyp|anon-WO0257455.33|glyP|l(2)k07918
+NA,FlyBase:FBgn0033097,Zinc/iron regulated transporter-related protein 42C.2,Zip42C.2,GENE,CG9430|Dmel\CG9430|cg9430|dZIP42C.2|dZip2|dZip42C.2
+NA,FlyBase:FBgn0039154,Niemann-Pick type C-2f,Npc2f,GENE,BcDNA:LP08842|CG6164|Dmel\CG6164|npc2f
+NA,FlyBase:FBgn0037973,uncharacterized protein,CG18547,GENE,Dmel\CG18547
+NA,FlyBase:FBgn0033307,uncharacterized protein,CG14752,GENE,Dmel\CG14752
+NA,FlyBase:FBgn0012036,2-ketoglutarate semialdehyde dehydrogenase,Aldh,GENE,NA
+NA,FlyBase:FBgn0016013,fumarylacetoacetase,Faa,GENE,NA
+NA,FlyBase:FBgn0036278,Corazonin receptor,CrzR,GENE,CG10698|Crz-R|DCR|DGRHRII|Dmel\CG10698|GRH-RII|GRHRII|GRHRII_Dro|anon-WO0170980.196|anon-WO0170980.197|crzR
+NA,FlyBase:FBgn0266064,glycyl tRNA synthetase subunit beta,GlyS,GENE,NA
+NA,FlyBase:FBgn0037684,uncharacterized protein,CG8129,GENE,CT24308|Dmel\CG8129
+NA,FlyBase:FBgn0036601,uncharacterized protein,CG13063,GENE,Dmel\CG13063
+NA,FlyBase:FBgn0032535,Ance-2,Ance-2,GENE,CG16869|CG31844|Dmel\CG16869|ance-2
+NA,FlyBase:FBgn0053301,uncharacterized protein,CG33301,GENE,CG4791|Dmel\CG33301
+NA,FlyBase:FBgn0029134,20S proteasome beta5 subunit,Prosbeta5,GENE,NA
+"This gene encodes UDP-galactose-4-epimerase which catalyzes two distinct but analogous reactions: the epimerization of UDP-glucose to UDP-galactose, and the epimerization of UDP-N-acetylglucosamine to UDP-N-acetylgalactosamine. The bifunctional nature of the enzyme has the important metabolic consequence that mutant cells (or individuals) are dependent not only on exogenous galactose, but also on exogenous N-acetylgalactosamine as a necessary precursor for the synthesis of glycoproteins and glycolipids. Mutations in this gene result in epimerase-deficiency galactosemia, also referred to as galactosemia type 3, a disease characterized by liver damage, early-onset cataracts, deafness and cognitive disability, with symptoms ranging from mild ('peripheral' form) to severe ('generalized' form). Multiple alternatively spliced transcripts encoding the same protein have been identified. [provided by RefSeq, Jul 2008].",FlyBase:FBgn0035147,UDP-galactose-4-epimerase,Gale,GENE,SDR1E1
+NA,FlyBase:FBgn0002564,Larval serum protein 1 gamma,Lsp1gamma,GENE,CG6821|DmeLSP1g|Dmel\CG6821|LSP 1|LSP-1 gamma|LSP-1gamma|LSP1|Lsp-1gamma|Lsp1|Lsp1-gamma|Lsp1[gamma]|Lsp1gama
+NA,FlyBase:FBgn0024957,Iron regulatory protein 1B,Irp-1B,GENE,144037_at|C-Acon|CG6342|Dmel\CG6342|IRF|IRP|IRP-1|IRP-1B|IRP1|cACON|cAcon|dIRP|irp-1B|irp1B
+NA,FlyBase:FBgn0267158,NA,CR45598,GENE,NA
+NA,FlyBase:FBgn0028686,26S proteasome regulatory subunit,Rpt3,GENE,NA
+NA,FlyBase:FBgn0263330,ncRNA,CR43411,GENE,Dmel\CR43411
+NA,FlyBase:FBgn0032889,uncharacterized protein,CG9331,GENE,Dmel\CG9331
+NA,FlyBase:FBgn0031417,uncharacterized protein,CG3597,GENE,BVRA|Dmel\CG3597
+NA,FlyBase:FBgn0032299,uncharacterized protein,CG17127,GENE,Dmel\CG17127
+NA,FlyBase:FBgn0035544,uncharacterized protein,CG15021,GENE,CT34875|Dmel\CG15021
+NA,FlyBase:FBgn0035398,chitinase 7,Cht7,GENE,TcCht7
+NA,FlyBase:FBgn0036320,uncharacterized protein,CG10943,GENE,Dmel\CG10943|Q9VU21
+NA,FlyBase:FBgn0034663,uncharacterized protein,CG4363,GENE,BcDNA:LP06375|CT14230|Dmel\CG4363
+NA,FlyBase:FBgn0039476,uncharacterized protein,CG6271,GENE,DmelL1|Dmel\CG6271
+NA,FlyBase:FBgn0263406,ncRNA,CR43452,GENE,Dmel\CR43452
+NA,FlyBase:FBgn0034943,Dimethylaniline monooxygenase [N-oxide-forming],Fmo-1,GENE,NA
+NA,FlyBase:FBgn0039728,uncharacterized protein,CG7896,GENE,CT23878|Dmel\CG7896|tartan/capricious-like
+"This gene is a member of the DNA ligase family. Each member of this family encodes a protein that catalyzes the joining of DNA ends but they each have a distinct role in DNA metabolism. The protein encoded by this gene is involved in excision repair and is located in both the mitochondria and nucleus, with translation initiation from the upstream start codon allowing for transport to the mitochondria and translation initiation from a downstream start codon allowing for transport to the nucleus. Additionally, alternate transcriptional splice variants, encoding different isoforms, have been characterized. [provided by RefSeq, Jul 2008].",FlyBase:FBgn0038035,DNA ligase 3,lig3,GENE,LIG2|LIG3alpha
+NA,FlyBase:FBgn0032069,Lysosomal alpha-mannosidase VI,LManVI,GENE,CG9468|Dmel\CG9468
+NA,FlyBase:FBgn0026314,UDP-glycosyltransferase 35b,Ugt35b,GENE,AC 006491B|CG6649|DmeUgt35b|Dmel\CG6649|UDPGT2|UGT35b|Ugt-35b|Ugt35B|Ugt86Db|ugt35b
+NA,FlyBase:FBgn0063667,uncharacterized protein,CG32335,GENE,BcDNA:RE72485|Dmel\CG32335
+NA,FlyBase:FBgn0034942,uncharacterized protein,CG13566,GENE,Dmel\CG13566
+NA,FlyBase:FBgn0030968,uncharacterized protein,CG7322,GENE,Dmel\CG7322
+NA,FlyBase:FBgn0032285,uncharacterized protein,CG17108,GENE,BEST:GH23489|CT33647|Dmel\CG17108|gh23489
+NA,FlyBase:FBgn0051463,uncharacterized protein,CG31463,GENE,CG11673|Dmel\CG31463
+NA,FlyBase:FBgn0039686,uncharacterized protein,CG15506,GENE,Dmel\CG15506
+NA,FlyBase:FBgn0035199,triforce,tfc,GENE,CG9134|Dmel\CG9134
+NA,FlyBase:FBgn0026190,prolyl-4-hydroxylase-alpha MP,PH4alphaMP,GENE,59D7T|CG9726|DM59D7T|Dmel\CG9726|ESTS:59D7T
+NA,FlyBase:FBgn0031418,uncharacterized protein,CG3609,GENE,CT12127|Dmel\CG3609
+NA,FlyBase:FBgn0037167,uncharacterized protein,CG11425,GENE,Dmel\CG11425|LPP-like|WUN-like
+NA,FlyBase:FBgn0000406,Cytochrome b5-related,Cyt-b5-r,GENE,CG13279|Cyt-b|Cyt-b5|Cytb|Cytb5|Cytb5r|Dmel\CG13279|TU-36B|TU36B
+NA,FlyBase:FBgn0036715,Cadherin 74A,Cad74A,GENE,CG6445|CT20086|Cad74B|DCad74B|Dmel\CG6445|cad74A
+NA,FlyBase:FBgn0020385,pugilist,pug,GENE,CG4067|Dmel\CG4067|MTHFD|Pug|bs14h02.y1|pugD
+NA,FlyBase:FBgn0020765,Adult cuticle protein 65Aa,Acp65Aa,GENE,ACP65A|Acp65A|BcDNA:RH61147|CG10297|DCP5|DMACP65A|DmelAcp65Aa|Dmel\CG10297
+NA,FlyBase:FBgn0034052,uncharacterized protein,CG8299,GENE,Dmel\CG8299|SP65
+NA,FlyBase:FBgn0032029,uncharacterized protein,CG17292,GENE,Dmel\CG17292
+NA,FlyBase:FBgn0030844,serine/threonine protein kinase Ppk23,ppk23,GENE,NA
+NA,FlyBase:FBgn0036857,uncharacterized protein,CG9629,GENE,Dmel\CG9629
+NA,FlyBase:FBgn0035189,uncharacterized protein,CG9119,GENE,CT9987|Dmel\CG9119
+NA,FlyBase:FBgn0023495,Lip3p,Lip3,GENE,NA
+NA,FlyBase:FBgn0039647,julius seizure,CG14509,GENE,CG14509|CG14510|Dmel\CG14509|sda
+NA,FlyBase:FBgn0035553,uncharacterized protein,CG13722,GENE,Dmel\CG13722
+NA,FlyBase:FBgn0029155,Malic enzyme b,Men-b,GENE,CG5889|Dmel\CG5889|MDH|Mdh|anon-EST:Posey79
+NA,FlyBase:FBgn0039481,Cuticular protein 97Eb,Cpr97Eb,GENE,CG15884|CT33880|Dmel\CG15884
+NA,FlyBase:FBgn0038236,Cyp313a1,Cyp313a1,GENE,313a1|313a1p|CG3360|CYP313a1|Cyp313A1|Cyp313a|Cyp313a1p|Dmel\CG3360
+NA,FlyBase:FBgn0010041,AGAP004173-PA,GstD5,GENE,AgaP_ENSANGG00000009281|ENSANGG00000009281
+NA,FlyBase:FBgn0034136,Dopamine N acetyltransferase,DAT,GENE,AA-NAT1|AANAT|AANATA|AANATB|Aanat1|CG3318|DAT|Dat1|Dmel\CG3318|NAT1|aaNAT|aaNAT1|aaNat
+NA,FlyBase:FBgn0036659,uncharacterized protein,CG9701,GENE,Dmel\CG9701
+NA,FlyBase:FBgn0038462,uncharacterized protein,CG17556,GENE,Dmel\CG17556
+NA,FlyBase:FBgn0031646,uncharacterized protein,CG2837,GENE,Dmel\CG2837
+NA,FlyBase:FBgn0032783,uncharacterized protein,CG10237,GENE,Dmel\CG10237
+NA,FlyBase:FBgn0030612,uncharacterized protein,CG5599,GENE,Dmel\CG5599
+NA,FlyBase:FBgn0024366,uncharacterized protein,CG11409,GENE,Dmel\CG11409|EG:8D8.2
+NA,FlyBase:FBgn0037127,uncharacterized protein,CG14566,GENE,Dmel\CG14566
+NA,FlyBase:FBgn0028939,Nimrod C2,NimC2,GENE,BG:DS00180.14|CG18146|CG18146-PB|CT40902|DS00180.14|Dmel\CG18146|nimC2
+NA,FlyBase:FBgn0023174,Proteasome beta2 subunit,Prosbeta2,GENE,3329|Beta-2|CG3329|DTS-7|DTS7|Dmel\CG3329|Dts7|PROSbeta2|Prosbeta|Prosbeta 2|anon-EST:fe1E6|anon-EST:fe1G6|b2|beta 2|beta-2|beta2|beta2_dm|l(3)DTS7|prosbeta|prosbeta2
+NA,FlyBase:FBgn0026077,gasp,Gasp,GENE,2A12|CG10287|Dmel\CG10287|anon-EST:ParkEST180|gammaBert27|gasp|obst-C
+NA,FlyBase:FBgn0034885,Entomoglyceroporin 4,CG4019,GENE,Aqp4019|CG4019|Dmel\CG4019|Eglp 4
+NA,FlyBase:FBgn0051371,uncharacterized protein,CG31371,GENE,CG15542|Dmel\CG31371
+NA,FlyBase:FBgn0035193,uncharacterized protein,CG9192,GENE,Dmel\CG9192
+NA,FlyBase:FBgn0038257,Senescence marker protein-30,smp-30,GENE,CG7390|CT22723|Dca|Dmel\CG7390|Smp-30
+NA,FlyBase:FBgn0034390,uncharacterized protein,CG15093,GENE,CG 15093|CT34968|Dmel\CG15093
+"Glutamic-oxaloacetic transaminase is a pyridoxal phosphate-dependent enzyme which exists in cytoplasmic and inner-membrane mitochondrial forms, GOT1 and GOT2, respectively. GOT plays a role in amino acid metabolism and the urea and tricarboxylic acid cycles. The two enzymes are homodimeric and show close homology. Two transcript variants encoding different isoforms have been found for this gene. [provided by RefSeq, Oct 2013].",FlyBase:FBgn0001125,glutamic-oxaloacetic transaminase 2,Got2,GENE,KAT4|KATIV|KYAT4|mitAAT
+NA,FlyBase:FBgn0039312,uncharacterized protein,CG10514,GENE,CT29508|Dmel\CG10514
+NA,FlyBase:FBgn0030362,regucalcin,regucalcin,GENE,CG1803|Dmel\CG1803|Regucalcin|T1
+NA,FlyBase:FBgn0027790,Gross virus antigen 1,GV1,GENE,Gv-1
+NA,FlyBase:FBgn0039452,uncharacterized protein,CG14245,GENE,CG32950|Dmel\CG14245
+NA,FlyBase:FBgn0053511,uncharacterized protein,CG33511,GENE,CG14398|Dmel\CG33511
+NA,FlyBase:FBgn0002569,Maltase A2,Mal-A2,GENE,CG8694|D|Dmel\CG8694|Drome_A2|LvpD|lvpD|mal_A2
+NA,FlyBase:FBgn0036619,Cuticular protein 72Ec,Cpr72Ec,GENE,CG4784|CT15377|Dmel\CG4784
+NA,FlyBase:FBgn0039682,Odorant-binding protein 99c,Obp99c,GENE,99c|CG7584|DmelObp99c|Dmel\CG7584|Obp 99c|Obp99b
+NA,FlyBase:FBgn0263090,NA,CR43358,GENE,NA
+NA,FlyBase:FBgn0040608,uncharacterized protein,CG14246,GENE,CG32950|Dmel\CG14246
+NA,FlyBase:FBgn0034030,uncharacterized protein,CG8192,GENE,Dmel\CG8192
+NA,FlyBase:FBgn0004066,Proteasome alpha4 subunit,Prosalpha4,GENE,28.1Pros|3422|Alpha-4|CG3422|Dmel\CG3422|PROS-28.1|PROS-Dm28.1|PROSA-28.1|PSA4_DROME|Pros-Dm28.1|Pros28|Pros28.1|a4|alpha-4|alpha4|alpha4_dm|pros28.1
+NA,FlyBase:FBgn0040637,uncharacterized protein,CG11458,GENE,Dmel\CG11458
+NA,FlyBase:FBgn0028684,proteasome regulatory particle base subunit rpt5,Rpt5,GENE,NA
+NA,FlyBase:FBgn0036298,nesthocker,nst,GENE,CG10627|Dmel\CG10627
+NA,FlyBase:FBgn0034470,Odorant-binding protein 56d,Obp56d,GENE,56d|BEST:GH09027|BcDNA:RE22207|CG11218|CT31326|DmelObp56d|Dmel\CG11218|OBP56d|RH69634p|obp56d
+NA,FlyBase:FBgn0032068,Lysosomal alpha-mannosidase V,LManV,GENE,CG9466|Dmel\CG9466
+"The protein encoded by this gene belongs to the lyase 1 family. It is an essential enzyme involved in purine metabolism, and catalyzes two non-sequential reactions in the de novo purine biosynthetic pathway: the conversion of succinylaminoimidazole carboxamide ribotide (SAICAR) to aminoimidazole carboxamide ribotide (AICAR) and the conversion of adenylosuccinate (S-AMP) to adenosine monophosphate (AMP). Mutations in this gene are associated with adenylosuccinase deficiency (ADSLD), a disorder marked with psychomotor retardation, epilepsy or autistic features. Alternatively spliced transcript variants have been found for this gene. [provided by RefSeq, Dec 2015].",FlyBase:FBgn0038467,adenylosuccinate lyase,AdSL,GENE,AMPS|ASASE|ASL
+NA,FlyBase:FBgn0037547,uncharacterized protein,CG7910,GENE,Dmel\CG7910
+NA,FlyBase:FBgn0040252,Ugt86Dh,Ugt86Dh,GENE,AC 006491H|CG4772|Dmel\CG4772
+NA,FlyBase:FBgn0039482,uncharacterized protein,CG14258,GENE,Dmel\CG14258
+NA,FlyBase:FBgn0031097,obstructor-A,obst-A,GENE,CG17052|Dmel\CG17052|Obst-A|obst
+NA,FlyBase:FBgn0261341,vermiform,verm,GENE,CG8756|DmCDA2|Dmel\CG8756|LCBP1|N63|Verm|hlm|l(3)76BDx
+NA,FlyBase:FBgn0034391,uncharacterized protein,CG15080,GENE,Dmel\CG15080
+NA,FlyBase:FBgn0027843,Carbonic anhydrase 2,CAH2,GENE,CG6906|CT21171|Dmel\CG6906
+NA,FlyBase:FBgn0034711,Alkaline phosphatase 2,Alp2,GENE,Aph-2|CG3290|Dmel\CG3290
+NA,FlyBase:FBgn0030836,uncharacterized protein,CG8664,GENE,Dmel\CG8664
+NA,FlyBase:FBgn0039896,yellow-h,yellow-h,GENE,CG1629|Dmel\CG1629|h|yell-h
+"The protein encoded by this gene is a molecular chaperone that binds 20S preproteasome components and is essential for 20S proteasome formation. The 20S proteasome is the proteolytically active component of the 26S proteasome complex. The encoded protein is degraded before the maturation of the 20S proteasome is complete. A variant in the 5' UTR of this gene has been associated with KLICK syndrome, a rare skin disorder.[provided by RefSeq, Aug 2010].",FlyBase:FBgn0032884,proteasome maturation protein,Pomp,GENE,C13orf12|HSPC014|PNAS-110|PRAAS2|UMP1
+NA,FlyBase:FBgn0047095,uncharacterized protein,CG33939,GENE,BcDNA:RE54004|CR33939|Dmel\CG33939|pncr004:X
+NA,FlyBase:FBgn0261394,Proteasome alpha3 subunit,Prosalpha3,GENE,Alpha-3|CG9327|Dmel\CG9327|PROS-29|PSB3_DROME|Pros20S-alpha3|Pros29|alpha-3|alpha3|alpha3_dm|pros29
+NA,FlyBase:FBgn0033214,uncharacterized protein,CG1941,GENE,Dmel\CG1941
